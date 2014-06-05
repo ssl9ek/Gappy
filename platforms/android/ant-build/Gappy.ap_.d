@@ -35,7 +35,14 @@
 /Users/Serena/work/gappy/platforms/android/assets/www/img \
 /Users/Serena/work/gappy/platforms/android/assets/www/index.html \
 /Users/Serena/work/gappy/platforms/android/assets/www/js \
+/Users/Serena/work/gappy/platforms/android/assets/www/plugins \
 /Users/Serena/work/gappy/platforms/android/assets/www/css/index.css \
 /Users/Serena/work/gappy/platforms/android/assets/www/img/logo.png \
 /Users/Serena/work/gappy/platforms/android/assets/www/js/index.js \
+/Users/Serena/work/gappy/platforms/android/assets/www/plugins/org.apache.cordova.camera \
+/Users/Serena/work/gappy/platforms/android/assets/www/plugins/org.apache.cordova.camera/www \
+/Users/Serena/work/gappy/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/Camera.js \
+/Users/Serena/work/gappy/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/CameraConstants.js \
+/Users/Serena/work/gappy/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/CameraPopoverHandle.js \
+/Users/Serena/work/gappy/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/CameraPopoverOptions.js \
 /Users/Serena/work/gappy/platforms/android/ant-build/AndroidManifest.xml \

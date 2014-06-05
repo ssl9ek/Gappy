@@ -6,4 +6,7 @@
 /Users/Serena/work/gappy/platforms/android/ant-build/classes/com/example/gappy/R$string.class \
 /Users/Serena/work/gappy/platforms/android/ant-build/classes/com/example/gappy/R$xml.class \
 /Users/Serena/work/gappy/platforms/android/ant-build/classes/com/example/gappy/R.class \
+/Users/Serena/work/gappy/platforms/android/ant-build/classes/org/apache/cordova/camera/CameraLauncher.class \
+/Users/Serena/work/gappy/platforms/android/ant-build/classes/org/apache/cordova/camera/ExifHelper.class \
+/Users/Serena/work/gappy/platforms/android/ant-build/classes/org/apache/cordova/camera/FileHelper.class \
 /Users/Serena/work/gappy/platforms/android/ant-build/dexedLibs/classes-39a0e540c9fd4dc131a76662a21b1ede.jar \

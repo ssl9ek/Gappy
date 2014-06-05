@@ -47,3 +47,67 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
+
+function addContact()
+{
+    var firstname = document.getElementById("firstname").value;
+    var lastname = document.getElementById("lastname").value;
+    var contact = {
+	firstname: firstname,
+        lastname:  lastname
+    };
+
+    var contactList = JSON.parse(localStorage.getItem('contact_list')) || {};
+    contactList[contact.lastname] = contact;
+    localStorage.setItem('contact_list', JSON.stringify(contactList));
+    
+};
+
+function displayContacts()
+{
+    var list = localStorage.getItem('contact_list');
+    document.getElementById('list').innerHTML = list;
+};
+
+function capturePhoto()
+{
+
+    alert("Capturing photo...");
+    // Take picture using device camera and retrieve image as base64-encoded string
+    navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 50,
+							      destinationType: destinationType.DATA_URL });
+    alert("Completed capturePhoto()");
+
+};
+
+function capturePhotoEdit() {
+    // Take picture using device camera, allow edit, and retrieve image as base64-encoded string
+    navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 20, allowEdit: true,
+        destinationType: destinationType.DATA_URL });
+};
+
+
+function onPhotoDataSuccess(imageData) {
+
+/*      // Uncomment to view the base64-encoded image data
+      // console.log(imageData);
+
+      // Get image handle
+      //
+      var smallImage = document.getElementById('smallImage');
+
+      // Unhide image elements
+      //
+      smallImage.style.display = 'block';
+
+      // Show the captured photo
+      // The in-line CSS rules are used to resize the image
+      //
+      smallImage.src = "data:image/jpeg;base64," + imageData;
+*/
+    alert("Got to onPhotoDataSuccess");
+};
+
+function onFail(message) {
+    alert('Failed because: Iunno');
+};
