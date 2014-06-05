@@ -21,7 +21,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
-	console.log("Hello");
+	console.log("Initializing Gappy...");
     },
     // Bind Event Listeners
     // Bind any events that are required on startup. Common events are:
@@ -40,11 +40,19 @@ function addContact()
     var firstname = document.getElementById("firstname").value;
     var lastname = document.getElementById("lastname").value;
     var contact = {
-	firstname: firstname,
-        lastname:  lastname
+	'firstname': firstname,
+        'lastname':  lastname
     };
+    
+    var contactList;
+    if (localStorage.getItem('contact_list')) {
+	contactList = JSON.parse(localStorage.getItem('contact_list'));
+    }
+    else
+    {
+	contactList = {};
+    }
 
-    var contactList = JSON.parse(localStorage.getItem('contact_list')) || {};
     contactList[contact.lastname] = contact;
     localStorage.setItem('contact_list', JSON.stringify(contactList));
     
@@ -56,6 +64,33 @@ function displayContacts()
     document.getElementById('list').innerHTML = list;
 };
 
+function addTask()
+{
+    var image = document.getElementById("smallImage");
+    var annotation = document.getElementById("annotation").value;
+    var task = { 'image': image.src, 'annotation': annotation }
+
+    var tasks;
+    if (localStorage.getItem('tasks')) {
+	tasks = JSON.parse(localStorage.getItem('tasks'));
+    }
+    else
+    {
+	tasks = [];
+    }
+
+    tasks.push(task);
+    console.log(JSON.stringify(task));
+    console.log(JSON.stringify(tasks));
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+};
+
+function listTasks()
+{
+    var list = localStorage.getItem('tasks');
+    document.getElementById('tasks').innerHTML = list;
+};
+
 function capturePhoto()
 {
     // Take picture using device camera and retrieve image as base64-encoded string
@@ -64,22 +99,20 @@ function capturePhoto()
 };
 
 function onPhotoDataSuccess(imageData) {
+    console.log("\n*************************************\n");
 
-      // Uncomment to view the base64-encoded image data
-      console.log(imageData);
+    // Uncomment to view the base64-encoded image data
+    console.log(imageData);
+    
+    // Get image handle
+    var smallImage = document.getElementById('smallImage');
 
-      // Get image handle
-      //
-      var smallImage = document.getElementById('smallImage');
+    // Unhide image elements
+    smallImage.style.display = 'block';
 
-      // Unhide image elements
-      //
-      smallImage.style.display = 'block';
-
-      // Show the captured photo
-      // The in-line CSS rules are used to resize the image
-      //
-      smallImage.src = imageData;
+    // Show the captured photo
+    // The in-line CSS rules are used to resize the image
+    smallImage.src = imageData;
 };
 
 function onFail(message) {
