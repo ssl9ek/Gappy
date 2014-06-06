@@ -41,6 +41,7 @@
 /Users/Serena/work/gappy/platforms/android/assets/www/js/index.js \
 /Users/Serena/work/gappy/platforms/android/assets/www/plugins/org.apache.cordova.camera \
 /Users/Serena/work/gappy/platforms/android/assets/www/plugins/org.apache.cordova.device \
+/Users/Serena/work/gappy/platforms/android/assets/www/plugins/org.apache.cordova.plugin.sms \
 /Users/Serena/work/gappy/platforms/android/assets/www/plugins/org.apache.cordova.camera/www \
 /Users/Serena/work/gappy/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/Camera.js \
 /Users/Serena/work/gappy/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/CameraConstants.js \
@@ -48,4 +49,6 @@
 /Users/Serena/work/gappy/platforms/android/assets/www/plugins/org.apache.cordova.camera/www/CameraPopoverOptions.js \
 /Users/Serena/work/gappy/platforms/android/assets/www/plugins/org.apache.cordova.device/www \
 /Users/Serena/work/gappy/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js \
+/Users/Serena/work/gappy/platforms/android/assets/www/plugins/org.apache.cordova.plugin.sms/www \
+/Users/Serena/work/gappy/platforms/android/assets/www/plugins/org.apache.cordova.plugin.sms/www/sms.js \
 /Users/Serena/work/gappy/platforms/android/ant-build/AndroidManifest.xml \

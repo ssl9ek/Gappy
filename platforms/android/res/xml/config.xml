@@ -11,6 +11,9 @@
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
+    <feature name="Sms">
+        <param name="android-package" value="org.apache.cordova.plugin.sms.Sms" />
+    </feature>
     <name>Gappy</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -20,7 +23,4 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <feature name="Sms">
-        <param name="android-package" value="org.apache.cordova.plugin.sms.Sms" />
-    </feature>
 </widget>

@@ -136,3 +136,13 @@ function onPhotoDataSuccess(imageData) {
 function onFail(message) {
     alert('Failed because: Iunno');
 };
+
+function sendSMS()
+{
+    var number = document.getElementById("numberTxt").value;
+    var message = document.getElementById("messageTxt").value;
+    var intent = ""; //leave empty for sending sms using default intent
+    var success = function () { alert('Message sent successfully'); };
+    var error = function (e) { alert('Message Failed:' + e); };
+    sms.send(number, message, intent, success, error);
+}
