@@ -42,6 +42,8 @@
 		9ED559F1AEAB4F72A74D9E62 /* CDVJpegHeaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C1142BDCB2BB4881838E8BAE /* CDVJpegHeaderWriter.m */; };
 		968E5F56BD6041199BC10C08 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F476A2863A944877815D4335 /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BEB3960A638D4AEA86ADEB5C /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 691FFE30EC7F44BBB754D688 /* CDVDevice.m */; };
+		A5FB618A516D4C5D88F6012A /* Sms.m in Sources */ = {isa = PBXBuildFile; fileRef = E2206B34F4724B49873B8FFC /* Sms.m */; };
+		7CDEFB9FB8054714A90F5FE5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA266670674033ADFB7680 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +116,9 @@
 		F476A2863A944877815D4335 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "ImageIO.framework"; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 		691FFE30EC7F44BBB754D688 /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "org.apache.cordova.device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		0D417F9A8FC0444DAEA24373 /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "org.apache.cordova.device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E2206B34F4724B49873B8FFC /* Sms.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Sms.m"; path = "org.apache.cordova.plugin.sms/Sms.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		7737C9F1642A4F1F9DAB4418 /* Sms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Sms.h"; path = "org.apache.cordova.plugin.sms/Sms.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		F4BA266670674033ADFB7680 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +132,7 @@
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
 				968E5F56BD6041199BC10C08 /* ImageIO.framework in Frameworks */,
+				7CDEFB9FB8054714A90F5FE5 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +227,7 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
 				F476A2863A944877815D4335 /* ImageIO.framework */,
+				F4BA266670674033ADFB7680 /* MessageUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -243,6 +250,8 @@
 				CF04D4DF1F654AE8ABAC695A /* CDVExif.h */,
 				691FFE30EC7F44BBB754D688 /* CDVDevice.m */,
 				0D417F9A8FC0444DAEA24373 /* CDVDevice.h */,
+				E2206B34F4724B49873B8FFC /* Sms.m */,
+				7737C9F1642A4F1F9DAB4418 /* Sms.h */,
 			);
 			name = Plugins;
 			path = "Gappy/Plugins";
@@ -440,6 +449,7 @@
 				5747A8821B5B4ABF8046247E /* CDVCamera.m in Sources */,
 				9ED559F1AEAB4F72A74D9E62 /* CDVJpegHeaderWriter.m in Sources */,
 				BEB3960A638D4AEA86ADEB5C /* CDVDevice.m in Sources */,
+				A5FB618A516D4C5D88F6012A /* Sms.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

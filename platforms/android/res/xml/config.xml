@@ -20,4 +20,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <feature name="Sms">
+        <param name="android-package" value="org.apache.cordova.plugin.sms.Sms" />
+    </feature>
 </widget>

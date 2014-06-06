@@ -34,4 +34,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <feature name="Sms">
+        <param name="ios-package" value="Sms" />
+    </feature>
 </widget>
