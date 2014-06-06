@@ -1,0 +1,1946 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'cordova',
+1 verbose cli   'ionic' ]
+2 info using npm@1.2.25
+3 info using node@v0.10.10
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/package.json
+6 verbose cache add [ 'cordova', null ]
+7 verbose cache add name=undefined spec="cordova" args=["cordova",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'cordova',
+8 verbose parsed url   path: 'cordova',
+8 verbose parsed url   href: 'cordova' }
+9 verbose cache add [ 'ionic', null ]
+10 verbose cache add name=undefined spec="ionic" args=["ionic",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'ionic',
+11 verbose parsed url   path: 'ionic',
+11 verbose parsed url   href: 'ionic' }
+12 silly lockFile a98f2055-cordova cordova
+13 verbose lock cordova /Users/Serena/.npm/a98f2055-cordova.lock
+14 silly lockFile 00d10074-ionic ionic
+15 verbose lock ionic /Users/Serena/.npm/00d10074-ionic.lock
+16 silly lockFile a98f2055-cordova cordova
+17 silly lockFile a98f2055-cordova cordova
+18 silly lockFile 00d10074-ionic ionic
+19 silly lockFile 00d10074-ionic ionic
+20 verbose addNamed [ 'cordova', '' ]
+21 verbose addNamed [ null, '' ]
+22 silly lockFile de8d9fad-cordova cordova@
+23 verbose lock cordova@ /Users/Serena/.npm/de8d9fad-cordova.lock
+24 verbose addNamed [ 'ionic', '' ]
+25 verbose addNamed [ null, '' ]
+26 silly lockFile 966fc04a-ionic ionic@
+27 verbose lock ionic@ /Users/Serena/.npm/966fc04a-ionic.lock
+28 silly addNameRange { name: 'cordova', range: '', hasData: false }
+29 silly addNameRange { name: 'ionic', range: '', hasData: false }
+30 verbose url raw ionic
+31 verbose url resolving [ 'https://registry.npmjs.org/', './ionic' ]
+32 verbose url resolved https://registry.npmjs.org/ionic
+33 info trying registry request attempt 1 at 11:09:14
+34 http GET https://registry.npmjs.org/ionic
+35 verbose url raw cordova
+36 verbose url resolving [ 'https://registry.npmjs.org/', './cordova' ]
+37 verbose url resolved https://registry.npmjs.org/cordova
+38 info trying registry request attempt 1 at 11:09:14
+39 verbose etag "6ECM847HJXJV37RHA977I45BZ"
+40 http GET https://registry.npmjs.org/cordova
+41 http 304 https://registry.npmjs.org/cordova
+42 silly registry.get cb [ 304,
+42 silly registry.get   { date: 'Fri, 06 Jun 2014 15:09:14 GMT',
+42 silly registry.get     server: 'Apache',
+42 silly registry.get     via: '1.1 varnish',
+42 silly registry.get     'last-modified': 'Fri, 06 Jun 2014 15:09:14 GMT',
+42 silly registry.get     'cache-control': 'max-age=1',
+42 silly registry.get     etag: '"6ECM847HJXJV37RHA977I45BZ"',
+42 silly registry.get     'x-served-by': 'cache-iad2129-IAD',
+42 silly registry.get     'x-cache': 'MISS',
+42 silly registry.get     'x-cache-hits': '0',
+42 silly registry.get     'x-timer': 'S1402067354.884432,VS0,VE113',
+42 silly registry.get     vary: 'Accept',
+42 silly registry.get     'content-length': '0',
+42 silly registry.get     'keep-alive': 'timeout=10, max=50',
+42 silly registry.get     connection: 'Keep-Alive' } ]
+43 verbose etag cordova from cache
+44 http 200 https://registry.npmjs.org/ionic
+45 silly registry.get cb [ 200,
+45 silly registry.get   { date: 'Fri, 06 Jun 2014 15:09:15 GMT',
+45 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+45 silly registry.get     etag: '"E64FFR1D6NL2B5PF7VNGY4PWI"',
+45 silly registry.get     'content-type': 'application/json',
+45 silly registry.get     via: '1.1 varnish',
+45 silly registry.get     'cache-control': 'max-age=1',
+45 silly registry.get     'content-length': '29357',
+45 silly registry.get     'accept-ranges': 'bytes',
+45 silly registry.get     age: '12145',
+45 silly registry.get     'x-served-by': 'cache-sv94-SJC3, cache-iad2127-IAD',
+45 silly registry.get     'x-cache': 'HIT, MISS',
+45 silly registry.get     'x-cache-hits': '1, 0',
+45 silly registry.get     'x-timer': 'S1402067354.878362,VS0,VE143',
+45 silly registry.get     vary: 'Accept',
+45 silly registry.get     'keep-alive': 'timeout=10, max=50',
+45 silly registry.get     connection: 'Keep-Alive' } ]
+46 silly addNameRange number 2 { name: 'cordova', range: '', hasData: true }
+47 silly addNameRange versions [ 'cordova',
+47 silly addNameRange   [ '0.0.1',
+47 silly addNameRange     '0.0.2',
+47 silly addNameRange     '0.0.3',
+47 silly addNameRange     '0.0.4',
+47 silly addNameRange     '0.0.5',
+47 silly addNameRange     '0.0.6',
+47 silly addNameRange     '0.0.7',
+47 silly addNameRange     '0.0.8',
+47 silly addNameRange     '0.0.9',
+47 silly addNameRange     '0.1.0',
+47 silly addNameRange     '0.1.1',
+47 silly addNameRange     '0.1.2',
+47 silly addNameRange     '0.1.3',
+47 silly addNameRange     '0.1.4',
+47 silly addNameRange     '0.1.5',
+47 silly addNameRange     '0.1.6',
+47 silly addNameRange     '0.1.7',
+47 silly addNameRange     '0.1.8',
+47 silly addNameRange     '0.1.9',
+47 silly addNameRange     '0.1.10',
+47 silly addNameRange     '0.1.11',
+47 silly addNameRange     '0.1.12',
+47 silly addNameRange     '0.1.13',
+47 silly addNameRange     '0.1.14',
+47 silly addNameRange     '2.2.0',
+47 silly addNameRange     '2.3.0',
+47 silly addNameRange     '2.3.1',
+47 silly addNameRange     '2.3.2',
+47 silly addNameRange     '2.3.3',
+47 silly addNameRange     '2.3.5',
+47 silly addNameRange     '2.3.6',
+47 silly addNameRange     '2.4.0',
+47 silly addNameRange     '2.4.1',
+47 silly addNameRange     '2.4.2',
+47 silly addNameRange     '2.4.3',
+47 silly addNameRange     '2.4.4',
+47 silly addNameRange     '2.4.5',
+47 silly addNameRange     '2.4.6',
+47 silly addNameRange     '2.4.7',
+47 silly addNameRange     '2.4.8',
+47 silly addNameRange     '2.4.9',
+47 silly addNameRange     '2.4.10',
+47 silly addNameRange     '2.5.0',
+47 silly addNameRange     '2.5.2',
+47 silly addNameRange     '2.5.3',
+47 silly addNameRange     '2.5.4',
+47 silly addNameRange     '2.5.5',
+47 silly addNameRange     '2.6.0',
+47 silly addNameRange     '2.6.1',
+47 silly addNameRange     '2.6.2',
+47 silly addNameRange     '2.7.0-rc.1',
+47 silly addNameRange     '2.7.1-rc.1',
+47 silly addNameRange     '2.7.2',
+47 silly addNameRange     '2.7.3',
+47 silly addNameRange     '2.7.4',
+47 silly addNameRange     '2.8.0',
+47 silly addNameRange     '2.8.1',
+47 silly addNameRange     '2.8.2',
+47 silly addNameRange     '2.8.3',
+47 silly addNameRange     '2.8.4',
+47 silly addNameRange     '2.8.5',
+47 silly addNameRange     '2.8.6',
+47 silly addNameRange     '2.8.7',
+47 silly addNameRange     '2.8.8',
+47 silly addNameRange     '2.8.9',
+47 silly addNameRange     '2.8.10',
+47 silly addNameRange     '2.8.11',
+47 silly addNameRange     '2.8.12',
+47 silly addNameRange     '2.8.13',
+47 silly addNameRange     '2.8.14',
+47 silly addNameRange     '2.8.15',
+47 silly addNameRange     '2.8.16',
+47 silly addNameRange     '2.8.17',
+47 silly addNameRange     '2.8.18',
+47 silly addNameRange     '2.8.19',
+47 silly addNameRange     '2.8.20',
+47 silly addNameRange     '2.8.21',
+47 silly addNameRange     '2.8.22',
+47 silly addNameRange     '2.8.23',
+47 silly addNameRange     '2.8.24',
+47 silly addNameRange     '2.8.25',
+47 silly addNameRange     '2.9.0',
+47 silly addNameRange     '2.9.1',
+47 silly addNameRange     '2.9.2',
+47 silly addNameRange     '2.9.3',
+47 silly addNameRange     '2.9.4',
+47 silly addNameRange     '2.9.5',
+47 silly addNameRange     '2.9.6',
+47 silly addNameRange     '2.9.7',
+47 silly addNameRange     '3.0.0-rc1',
+47 silly addNameRange     '3.0.0-rc1-1',
+47 silly addNameRange     '3.0.0-rc1-3',
+47 silly addNameRange     '3.0.0',
+47 silly addNameRange     '3.0.1',
+47 silly addNameRange     '3.0.2',
+47 silly addNameRange     '3.0.3',
+47 silly addNameRange     '3.0.4',
+47 silly addNameRange     '3.0.5',
+47 silly addNameRange     '3.0.6',
+47 silly addNameRange     '3.0.7',
+47 silly addNameRange     '3.0.8',
+47 silly addNameRange     '3.0.9',
+47 silly addNameRange     '3.0.10',
+47 silly addNameRange     '3.1.0-0.1.0',
+47 silly addNameRange     '3.1.0-0.2.0',
+47 silly addNameRange     '3.2.0-rc.1',
+47 silly addNameRange     '3.2.0-0.1.0',
+47 silly addNameRange     '3.2.0-0.2.0',
+47 silly addNameRange     '3.2.0-0.3.0',
+47 silly addNameRange     '3.2.0-0.4.0',
+47 silly addNameRange     '3.3.0-rc.1',
+47 silly addNameRange     '3.3.0-0.1.1',
+47 silly addNameRange     '3.3.1-0.1.2',
+47 silly addNameRange     '2.9.0-rc1',
+47 silly addNameRange     '3.3.1-0.3.0',
+47 silly addNameRange     '3.3.1-0.3.1',
+47 silly addNameRange     '3.3.1-0.4.1',
+47 silly addNameRange     '3.3.1-0.4.2',
+47 silly addNameRange     '3.4.0-0.1.0',
+47 silly addNameRange     '3.4.0-0.1.1',
+47 silly addNameRange     '3.4.0-0.1.2',
+47 silly addNameRange     '3.4.0-0.1.3',
+47 silly addNameRange     '0.0.0-fake',
+47 silly addNameRange     '3.4.1-0.1.0',
+47 silly addNameRange     '3.5.0-0.2.0',
+47 silly addNameRange     '3.5.0-0.2.1',
+47 silly addNameRange     '3.5.0-0.2.2',
+47 silly addNameRange     '3.5.0-0.2.3',
+47 silly addNameRange     '3.5.0-0.2.4' ] ]
+48 verbose addNamed [ 'cordova', '3.5.0-0.2.4' ]
+49 verbose addNamed [ '3.5.0-0.2.4', '3.5.0-0.2.4' ]
+50 silly lockFile b06f4b23-cordova-3-5-0-0-2-4 cordova@3.5.0-0.2.4
+51 verbose lock cordova@3.5.0-0.2.4 /Users/Serena/.npm/b06f4b23-cordova-3-5-0-0-2-4.lock
+52 silly addNameRange number 2 { name: 'ionic', range: '', hasData: true }
+53 silly addNameRange versions [ 'ionic',
+53 silly addNameRange   [ '0.9.6',
+53 silly addNameRange     '0.9.8',
+53 silly addNameRange     '0.9.9',
+53 silly addNameRange     '0.9.10',
+53 silly addNameRange     '0.9.11',
+53 silly addNameRange     '0.9.12',
+53 silly addNameRange     '0.9.13',
+53 silly addNameRange     '0.9.14',
+53 silly addNameRange     '0.9.15',
+53 silly addNameRange     '0.9.16',
+53 silly addNameRange     '1.0.0-beta.1',
+53 silly addNameRange     '1.0.0-beta',
+53 silly addNameRange     '1.0.1-beta',
+53 silly addNameRange     '1.0.3-beta',
+53 silly addNameRange     '1.0.4',
+53 silly addNameRange     '1.0.5',
+53 silly addNameRange     '1.0.6',
+53 silly addNameRange     '1.0.7',
+53 silly addNameRange     '1.0.8',
+53 silly addNameRange     '1.0.9',
+53 silly addNameRange     '1.0.10',
+53 silly addNameRange     '1.0.11',
+53 silly addNameRange     '1.0.12',
+53 silly addNameRange     '1.0.13',
+53 silly addNameRange     '1.0.14' ] ]
+54 verbose addNamed [ 'ionic', '1.0.14' ]
+55 verbose addNamed [ '1.0.14', '1.0.14' ]
+56 silly lockFile 7c90bd7d-ionic-1-0-14 ionic@1.0.14
+57 verbose lock ionic@1.0.14 /Users/Serena/.npm/7c90bd7d-ionic-1-0-14.lock
+58 verbose read json /Users/Serena/.npm/cordova/3.5.0-0.2.4/package/package.json
+59 silly lockFile 9abafa3f-npmjs-org-ionic-ionic-1-0-14-tgz https://registry.npmjs.org/ionic/-/ionic-1.0.14.tgz
+60 verbose lock https://registry.npmjs.org/ionic/-/ionic-1.0.14.tgz /Users/Serena/.npm/9abafa3f-npmjs-org-ionic-ionic-1-0-14-tgz.lock
+61 verbose addRemoteTarball [ 'https://registry.npmjs.org/ionic/-/ionic-1.0.14.tgz',
+61 verbose addRemoteTarball   'fbbc6bf1932193cf5772a1a81b314a63fdfcf3a1' ]
+62 info retry fetch attempt 1 at 11:09:15
+63 verbose fetch to= /Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/tmp.tgz
+64 http GET https://registry.npmjs.org/ionic/-/ionic-1.0.14.tgz
+65 silly lockFile b06f4b23-cordova-3-5-0-0-2-4 cordova@3.5.0-0.2.4
+66 silly lockFile b06f4b23-cordova-3-5-0-0-2-4 cordova@3.5.0-0.2.4
+67 silly lockFile de8d9fad-cordova cordova@
+68 silly lockFile de8d9fad-cordova cordova@
+69 http 200 https://registry.npmjs.org/ionic/-/ionic-1.0.14.tgz
+70 verbose tar unpack /Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/tmp.tgz
+71 silly lockFile ce0ffd6c-5120-0-05158569756895304-package /Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/package
+72 verbose lock /Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/package /Users/Serena/.npm/ce0ffd6c-5120-0-05158569756895304-package.lock
+73 silly lockFile 1496ae07-5120-0-05158569756895304-tmp-tgz /Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/tmp.tgz
+74 verbose lock /Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/tmp.tgz /Users/Serena/.npm/1496ae07-5120-0-05158569756895304-tmp-tgz.lock
+75 silly gunzTarPerm modes [ '755', '644' ]
+76 silly gunzTarPerm extractEntry package.json
+77 silly gunzTarPerm extractEntry .npmignore
+78 silly gunzTarPerm extractEntry README.md
+79 silly gunzTarPerm extractEntry LICENSE
+80 silly gunzTarPerm extractEntry .gitattributes
+81 silly gunzTarPerm extractEntry bin/ionic
+82 silly gunzTarPerm extractEntry bin/test/package.json
+83 silly gunzTarPerm extractEntry bin/test/.npmignore
+84 silly gunzTarPerm extractEntry bin/test/README.md
+85 silly gunzTarPerm extractEntry bin/test/gulpfile.js
+86 silly gunzTarPerm extractEntry bin/test/hooks/.npmignore
+87 silly gunzTarPerm extractEntry bin/test/hooks/README.md
+88 silly gunzTarPerm extractEntry bin/test/config.xml
+89 silly gunzTarPerm extractEntry bin/test/www/.npmignore
+90 silly gunzTarPerm extractEntry bin/test/www/README.md
+91 silly gunzTarPerm extractEntry bin/test/www/css/style.css
+92 silly gunzTarPerm extractEntry bin/test/www/img/ionic.png
+93 silly gunzTarPerm extractEntry bin/test/www/index.html
+94 silly gunzTarPerm extractEntry bin/test/www/js/app.js
+95 silly gunzTarPerm extractEntry bin/test/www/js/controllers.js
+96 silly gunzTarPerm extractEntry bin/test/www/js/services.js
+97 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/css/ionic.css
+98 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/css/ionic.min.css
+99 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/fonts/ionicons.eot
+100 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/fonts/ionicons.svg
+101 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/fonts/ionicons.ttf
+102 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/fonts/ionicons.woff
+103 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic-angular.js
+104 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic-angular.min.js
+105 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic.bundle.js
+106 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic.bundle.min.js
+107 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic.js
+108 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic.min.js
+109 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-animate.js
+110 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-animate.min.js
+111 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-resource.js
+112 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-resource.min.js
+113 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-sanitize.js
+114 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-sanitize.min.js
+115 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular.js
+116 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular.min.js
+117 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular-ui/angular-ui-router.js
+118 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular-ui/angular-ui-router.min.js
+119 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_platform.scss
+120 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_action-sheet.scss
+121 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_backdrop.scss
+122 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_badge.scss
+123 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_bar.scss
+124 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_button-bar.scss
+125 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_button.scss
+126 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_checkbox.scss
+127 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_form.scss
+128 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_grid.scss
+129 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_items.scss
+130 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_list.scss
+131 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_loading.scss
+132 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_menu.scss
+133 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_mixins.scss
+134 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_modal.scss
+135 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_animations.scss
+136 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_popup.scss
+137 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_progress.scss
+138 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_radio.scss
+139 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_range.scss
+140 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_reset.scss
+141 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_scaffolding.scss
+142 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_select.scss
+143 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_slide-box.scss
+144 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_split-pane.scss
+145 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_tabs.scss
+146 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_toggle.scss
+147 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_type.scss
+148 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_util.scss
+149 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_variables.scss
+150 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionic.scss
+151 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionicons/_ionicons-animation.scss
+152 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionicons/_ionicons-font.scss
+153 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionicons/_ionicons-icons.scss
+154 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionicons/_ionicons-variables.scss
+155 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionicons/ionicons.scss
+156 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/version.json
+157 silly gunzTarPerm extractEntry bin/test/www/templates/friend-detail.html
+158 silly gunzTarPerm extractEntry bin/test/www/templates/tab-account.html
+159 silly gunzTarPerm extractEntry bin/test/www/templates/tab-dash.html
+160 silly gunzTarPerm extractEntry bin/test/www/templates/tab-friends.html
+161 silly gunzTarPerm extractEntry bin/test/www/templates/tabs.html
+162 silly gunzTarPerm extractEntry bin/test/platforms/.npmignore
+163 silly gunzTarPerm extractEntry bin/test/plugins/.npmignore
+164 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/package.json
+165 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/README.md
+166 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/LICENSE
+167 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/.fetch.json
+168 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/plugin.xml
+169 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/src/android/IonicKeyboard.java
+170 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/src/ios/IonicKeyboard.h
+171 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/src/ios/IonicKeyboard.m
+172 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/src/ios/UIWebViewExtension.h
+173 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/src/ios/UIWebViewExtension.m
+174 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/www/keyboard.js
+175 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/package.json
+176 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/README.md
+177 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/LICENSE
+178 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/.fetch.json
+179 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/NOTICE
+180 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/RELEASENOTES.md
+181 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/doc/index.md
+182 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/plugin.xml
+183 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/src/ios/CDVLogger.h
+184 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/src/ios/CDVLogger.m
+185 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/src/ubuntu/console.cpp
+186 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/src/ubuntu/console.h
+187 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/src/wp/DebugConsole.cs
+188 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/www/console-via-logger.js
+189 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/www/logger.js
+190 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/package.json
+191 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/README.md
+192 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/LICENSE
+193 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/.fetch.json
+194 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/NOTICE
+195 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/RELEASENOTES.md
+196 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/doc/index.md
+197 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/plugin.xml
+198 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/android/Device.java
+199 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/blackberry10/index.js
+200 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/firefoxos/DeviceProxy.js
+201 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/ios/CDVDevice.h
+202 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/ios/CDVDevice.m
+203 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/tizen/DeviceProxy.js
+204 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/ubuntu/device.js
+205 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/ubuntu/device.cpp
+206 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/ubuntu/device.h
+207 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/windows8/DeviceProxy.js
+208 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/wp/Device.cs
+209 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/www/device.js
+210 silly gunzTarPerm extractEntry bin/test/scss/ionic.app.scss
+211 silly gunzTarPerm extractEntry bin/test/ionic.project
+212 silly gunzTarPerm extractEntry lib/ionic.js
+213 silly gunzTarPerm extractEntry lib/ionic/build.js
+214 silly gunzTarPerm extractEntry lib/ionic/login.js
+215 silly gunzTarPerm extractEntry lib/ionic/package.js
+216 silly gunzTarPerm extractEntry lib/ionic/platform.js
+217 silly gunzTarPerm extractEntry lib/ionic/private.js
+218 silly gunzTarPerm extractEntry lib/ionic/emulate.js
+219 silly gunzTarPerm extractEntry lib/ionic/run.js
+220 silly gunzTarPerm extractEntry lib/ionic/serve.js
+221 silly gunzTarPerm extractEntry lib/ionic/start.js
+222 silly gunzTarPerm extractEntry lib/ionic/stats.js
+223 silly gunzTarPerm extractEntry lib/ionic/task.js
+224 silly gunzTarPerm extractEntry lib/ionic/config.js
+225 silly gunzTarPerm extractEntry lib/ionic/upload.js
+226 silly gunzTarPerm extractEntry lib/ionic/project.js
+227 verbose read json /Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/package/package.json
+228 silly lockFile ce0ffd6c-5120-0-05158569756895304-package /Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/package
+229 silly lockFile ce0ffd6c-5120-0-05158569756895304-package /Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/package
+230 silly lockFile 1496ae07-5120-0-05158569756895304-tmp-tgz /Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/tmp.tgz
+231 silly lockFile 1496ae07-5120-0-05158569756895304-tmp-tgz /Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/tmp.tgz
+232 verbose from cache /Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/package/package.json
+233 verbose tar pack [ '/Users/Serena/.npm/ionic/1.0.14/package.tgz',
+233 verbose tar pack   '/Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/package' ]
+234 verbose tarball /Users/Serena/.npm/ionic/1.0.14/package.tgz
+235 verbose folder /Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/package
+236 silly lockFile ce0ffd6c-5120-0-05158569756895304-package /Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/package
+237 verbose lock /Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/package /Users/Serena/.npm/ce0ffd6c-5120-0-05158569756895304-package.lock
+238 silly lockFile 666bfebe-ena-npm-ionic-1-0-14-package-tgz /Users/Serena/.npm/ionic/1.0.14/package.tgz
+239 verbose lock /Users/Serena/.npm/ionic/1.0.14/package.tgz /Users/Serena/.npm/666bfebe-ena-npm-ionic-1-0-14-package-tgz.lock
+240 silly lockFile ce0ffd6c-5120-0-05158569756895304-package /Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/package
+241 silly lockFile ce0ffd6c-5120-0-05158569756895304-package /Users/Serena/tmp/npm-3105/1402067355120-0.05158569756895304/package
+242 silly lockFile 666bfebe-ena-npm-ionic-1-0-14-package-tgz /Users/Serena/.npm/ionic/1.0.14/package.tgz
+243 silly lockFile 666bfebe-ena-npm-ionic-1-0-14-package-tgz /Users/Serena/.npm/ionic/1.0.14/package.tgz
+244 silly lockFile ddc1bff7--Serena-npm-ionic-1-0-14-package /Users/Serena/.npm/ionic/1.0.14/package
+245 verbose lock /Users/Serena/.npm/ionic/1.0.14/package /Users/Serena/.npm/ddc1bff7--Serena-npm-ionic-1-0-14-package.lock
+246 silly lockFile ddc1bff7--Serena-npm-ionic-1-0-14-package /Users/Serena/.npm/ionic/1.0.14/package
+247 silly lockFile ddc1bff7--Serena-npm-ionic-1-0-14-package /Users/Serena/.npm/ionic/1.0.14/package
+248 verbose tar unpack /Users/Serena/.npm/ionic/1.0.14/package.tgz
+249 silly lockFile ddc1bff7--Serena-npm-ionic-1-0-14-package /Users/Serena/.npm/ionic/1.0.14/package
+250 verbose lock /Users/Serena/.npm/ionic/1.0.14/package /Users/Serena/.npm/ddc1bff7--Serena-npm-ionic-1-0-14-package.lock
+251 silly lockFile 666bfebe-ena-npm-ionic-1-0-14-package-tgz /Users/Serena/.npm/ionic/1.0.14/package.tgz
+252 verbose lock /Users/Serena/.npm/ionic/1.0.14/package.tgz /Users/Serena/.npm/666bfebe-ena-npm-ionic-1-0-14-package-tgz.lock
+253 silly gunzTarPerm modes [ '755', '644' ]
+254 silly gunzTarPerm extractEntry package.json
+255 silly gunzTarPerm extractEntry .npmignore
+256 silly gunzTarPerm extractEntry README.md
+257 silly gunzTarPerm extractEntry LICENSE
+258 silly gunzTarPerm extractEntry .gitattributes
+259 silly gunzTarPerm extractEntry bin/ionic
+260 silly gunzTarPerm extractEntry bin/test/package.json
+261 silly gunzTarPerm extractEntry bin/test/.npmignore
+262 silly gunzTarPerm extractEntry bin/test/README.md
+263 silly gunzTarPerm extractEntry bin/test/gulpfile.js
+264 silly gunzTarPerm extractEntry bin/test/hooks/.npmignore
+265 silly gunzTarPerm extractEntry bin/test/hooks/README.md
+266 silly gunzTarPerm extractEntry bin/test/config.xml
+267 silly gunzTarPerm extractEntry bin/test/www/.npmignore
+268 silly gunzTarPerm extractEntry bin/test/www/README.md
+269 silly gunzTarPerm extractEntry bin/test/www/css/style.css
+270 silly gunzTarPerm extractEntry bin/test/www/img/ionic.png
+271 silly gunzTarPerm extractEntry bin/test/www/index.html
+272 silly gunzTarPerm extractEntry bin/test/www/js/app.js
+273 silly gunzTarPerm extractEntry bin/test/www/js/controllers.js
+274 silly gunzTarPerm extractEntry bin/test/www/js/services.js
+275 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/css/ionic.css
+276 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/css/ionic.min.css
+277 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/fonts/ionicons.eot
+278 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/fonts/ionicons.svg
+279 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/fonts/ionicons.ttf
+280 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/fonts/ionicons.woff
+281 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic-angular.js
+282 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic-angular.min.js
+283 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic.bundle.js
+284 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic.bundle.min.js
+285 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic.js
+286 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic.min.js
+287 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-animate.js
+288 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-animate.min.js
+289 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-resource.js
+290 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-resource.min.js
+291 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-sanitize.js
+292 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-sanitize.min.js
+293 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular.js
+294 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular.min.js
+295 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular-ui/angular-ui-router.js
+296 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular-ui/angular-ui-router.min.js
+297 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_platform.scss
+298 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_action-sheet.scss
+299 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_backdrop.scss
+300 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_badge.scss
+301 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_bar.scss
+302 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_button-bar.scss
+303 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_button.scss
+304 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_checkbox.scss
+305 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_form.scss
+306 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_grid.scss
+307 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_items.scss
+308 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_list.scss
+309 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_loading.scss
+310 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_menu.scss
+311 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_mixins.scss
+312 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_modal.scss
+313 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_animations.scss
+314 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_popup.scss
+315 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_progress.scss
+316 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_radio.scss
+317 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_range.scss
+318 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_reset.scss
+319 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_scaffolding.scss
+320 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_select.scss
+321 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_slide-box.scss
+322 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_split-pane.scss
+323 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_tabs.scss
+324 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_toggle.scss
+325 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_type.scss
+326 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_util.scss
+327 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_variables.scss
+328 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionic.scss
+329 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionicons/_ionicons-animation.scss
+330 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionicons/_ionicons-font.scss
+331 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionicons/_ionicons-icons.scss
+332 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionicons/_ionicons-variables.scss
+333 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionicons/ionicons.scss
+334 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/version.json
+335 silly gunzTarPerm extractEntry bin/test/www/templates/friend-detail.html
+336 silly gunzTarPerm extractEntry bin/test/www/templates/tab-account.html
+337 silly gunzTarPerm extractEntry bin/test/www/templates/tab-dash.html
+338 silly gunzTarPerm extractEntry bin/test/www/templates/tab-friends.html
+339 silly gunzTarPerm extractEntry bin/test/www/templates/tabs.html
+340 silly gunzTarPerm extractEntry bin/test/platforms/.npmignore
+341 silly gunzTarPerm extractEntry bin/test/plugins/.npmignore
+342 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/package.json
+343 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/README.md
+344 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/LICENSE
+345 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/.fetch.json
+346 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/plugin.xml
+347 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/src/android/IonicKeyboard.java
+348 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/src/ios/IonicKeyboard.h
+349 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/src/ios/IonicKeyboard.m
+350 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/src/ios/UIWebViewExtension.h
+351 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/src/ios/UIWebViewExtension.m
+352 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/www/keyboard.js
+353 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/package.json
+354 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/README.md
+355 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/LICENSE
+356 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/.fetch.json
+357 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/NOTICE
+358 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/RELEASENOTES.md
+359 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/doc/index.md
+360 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/plugin.xml
+361 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/src/ios/CDVLogger.h
+362 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/src/ios/CDVLogger.m
+363 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/src/ubuntu/console.cpp
+364 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/src/ubuntu/console.h
+365 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/src/wp/DebugConsole.cs
+366 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/www/console-via-logger.js
+367 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/www/logger.js
+368 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/package.json
+369 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/README.md
+370 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/LICENSE
+371 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/.fetch.json
+372 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/NOTICE
+373 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/RELEASENOTES.md
+374 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/doc/index.md
+375 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/plugin.xml
+376 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/android/Device.java
+377 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/blackberry10/index.js
+378 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/firefoxos/DeviceProxy.js
+379 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/ios/CDVDevice.h
+380 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/ios/CDVDevice.m
+381 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/tizen/DeviceProxy.js
+382 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/ubuntu/device.js
+383 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/ubuntu/device.cpp
+384 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/ubuntu/device.h
+385 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/windows8/DeviceProxy.js
+386 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/wp/Device.cs
+387 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/www/device.js
+388 silly gunzTarPerm extractEntry bin/test/scss/ionic.app.scss
+389 silly gunzTarPerm extractEntry bin/test/ionic.project
+390 silly gunzTarPerm extractEntry lib/ionic.js
+391 silly gunzTarPerm extractEntry lib/ionic/build.js
+392 silly gunzTarPerm extractEntry lib/ionic/login.js
+393 silly gunzTarPerm extractEntry lib/ionic/package.js
+394 silly gunzTarPerm extractEntry lib/ionic/platform.js
+395 silly gunzTarPerm extractEntry lib/ionic/private.js
+396 silly gunzTarPerm extractEntry lib/ionic/emulate.js
+397 silly gunzTarPerm extractEntry lib/ionic/run.js
+398 silly gunzTarPerm extractEntry lib/ionic/serve.js
+399 silly gunzTarPerm extractEntry lib/ionic/start.js
+400 silly gunzTarPerm extractEntry lib/ionic/stats.js
+401 silly gunzTarPerm extractEntry lib/ionic/task.js
+402 silly gunzTarPerm extractEntry lib/ionic/config.js
+403 silly gunzTarPerm extractEntry lib/ionic/upload.js
+404 silly gunzTarPerm extractEntry lib/ionic/project.js
+405 verbose read json /Users/Serena/.npm/ionic/1.0.14/package/package.json
+406 silly lockFile ddc1bff7--Serena-npm-ionic-1-0-14-package /Users/Serena/.npm/ionic/1.0.14/package
+407 silly lockFile ddc1bff7--Serena-npm-ionic-1-0-14-package /Users/Serena/.npm/ionic/1.0.14/package
+408 silly lockFile 666bfebe-ena-npm-ionic-1-0-14-package-tgz /Users/Serena/.npm/ionic/1.0.14/package.tgz
+409 silly lockFile 666bfebe-ena-npm-ionic-1-0-14-package-tgz /Users/Serena/.npm/ionic/1.0.14/package.tgz
+410 verbose from cache /Users/Serena/.npm/ionic/1.0.14/package/package.json
+411 verbose chmod /Users/Serena/.npm/ionic/1.0.14/package.tgz 644
+412 verbose chown /Users/Serena/.npm/ionic/1.0.14/package.tgz [ 0, 20 ]
+413 silly lockFile 9abafa3f-npmjs-org-ionic-ionic-1-0-14-tgz https://registry.npmjs.org/ionic/-/ionic-1.0.14.tgz
+414 silly lockFile 9abafa3f-npmjs-org-ionic-ionic-1-0-14-tgz https://registry.npmjs.org/ionic/-/ionic-1.0.14.tgz
+415 silly lockFile 7c90bd7d-ionic-1-0-14 ionic@1.0.14
+416 silly lockFile 7c90bd7d-ionic-1-0-14 ionic@1.0.14
+417 silly lockFile 966fc04a-ionic ionic@
+418 silly lockFile 966fc04a-ionic ionic@
+419 silly resolved [ { name: 'cordova',
+419 silly resolved     version: '3.5.0-0.2.4',
+419 silly resolved     preferGlobal: 'true',
+419 silly resolved     description: 'Cordova command line interface tool',
+419 silly resolved     main: 'cordova',
+419 silly resolved     engines: { node: '>=0.9.9' },
+419 silly resolved     engineStrict: true,
+419 silly resolved     bin: { cordova: './bin/cordova' },
+419 silly resolved     scripts: { test: 'jasmine-node --color spec' },
+419 silly resolved     repository:
+419 silly resolved      { type: 'git',
+419 silly resolved        url: 'https://git-wip-us.apache.org/repos/asf/cordova-cli.git' },
+419 silly resolved     bugs:
+419 silly resolved      { url: 'https://issues.apache.org/jira/browse/CB',
+419 silly resolved        email: 'dev@cordova.apache.org' },
+419 silly resolved     keywords: [ 'cordova', 'client', 'cli' ],
+419 silly resolved     dependencies:
+419 silly resolved      { 'cordova-lib': '0.21.3',
+419 silly resolved        q: '~0.9',
+419 silly resolved        optimist: '0.6.0',
+419 silly resolved        underscore: '1.4.4' },
+419 silly resolved     devDependencies: { 'jasmine-node': '~1' },
+419 silly resolved     author: { name: 'Anis Kadri' },
+419 silly resolved     contributors:
+419 silly resolved      [ [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object],
+419 silly resolved        [Object] ],
+419 silly resolved     license: 'Apache version 2.0',
+419 silly resolved     readme: '<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# "License"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-cli\n\n> The command line tool to build, deploy and manage [Cordova](http://cordova.io)-based applications.\n\n[Apache Cordova](http://cordova.io) allows for building native mobile applications using HTML, CSS and JavaScript. This tool helps with management of multi-platform Cordova applications as well as Cordova plugin integration.\n\nCheck out the [Getting Started guides](http://cordova.apache.org/docs/en/edge/) for more details on how to work with Cordova sub-projects.\n\n# Supported Cordova Platforms\n\n- Amazon Fire OS\n- Android\n- BlackBerry 10\n- iOS\n- Ubuntu\n- Windows Phone 7 &amp; 8\n- Windows 8\n\n> **Note: Windows Phone 7 is deprecated as a target platform. Support will be removed in version 3.7.0, approx. May 2014.**\n\n# Requirements\n\n* [Node.js](http://nodejs.org/)\n* SDKs for each platform you wish to support:\n  - **Android**: [Android SDK](http://developer.android.com) - **NOTE** This tool\n    will not work unless you have the absolute latest updates for all\n    Android SDK components. Also you will need the SDK\'s `tools` and `platform-tools` directories on your __system path__ otherwise Android support will fail.\n  - [Amazon Fire OS SDK](https://developer.amazon.com/sdk/fire/IntegratingAWV.html#installawv) - **NOTE** This tool will not work unless you have Android SDK installed and paths are updated as mentioned above. In addition you need to install AmazonWebView SDK and copy awv_interface.jar to corodva-amazon-fireos/framework/libs folder. If libs folder does not exist then create one.\n  - [Windows Phone SDK](http://dev.windowsphone.com/en-us/downloadsdk) - **NOTE** This tool will not work unless you have `msbuild` on your __system path__ otherwise Windows Phone support will fail (`msbuild.exe` is generally located in `C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319`).\n  - **BlackBerry 10**: [BlackBerry 10 WebWorks SDK](http://developer.blackberry.com/html5/download/). Make sure you have the `dependencies/tools/bin` folder inside the SDK directory added to your path!\n  - **iOS**: [iOS SDK](http://developer.apple.com) with the latest `Xcode` and `Xcode Command Line Tools`\n  - **Windows Phone**: [Windows Phone SDK](http://dev.windowsphone.com/en-us/downloadsdk) - **NOTE** This tool will not work unless you have `msbuild` on your __system path__ otherwise Windows Phone support will fail (`msbuild.exe` is generally located in `C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319`).\n\n`cordova-cli` has been tested on **Mac OS X**, **Linux**, **Windows 7**, and **Windows 8**.\n\nPlease note that some platforms have OS restrictions.  For example, you cannot build for Windows 8 or Windows Phone 7 & 8 on Mac OS X, nor can you build for iOS on Windows.\n\n# Install\n\nUbuntu packages are available in a PPA for Ubuntu 13.10 (Saucy) (the current release) as well as 14.04 (Trusty) (under development).\n\n    sudo apt-add-repository ppa:cordova-ubuntu/ppa\n    sudo apt-get update\n    sudo apt-get install cordova-cli\n    npm install -g cordova\n\nTo build an application for the Ubuntu platform, the following extra packages are required:\n\n    sudo apt-get install cmake debhelper libx11-dev libicu-dev pkg-config qtbase5-dev qtchooser qtdeclarative5-dev qtfeedback5-dev qtlocation5-dev qtmultimedia5-dev qtpim5-dev qtsensors5-dev qtsystems5-dev\n\n\n## Installing from master\n\nYou\'ll need to install both [CLI](https://git-wip-us.apache.org/repos/asf/cordova-cli.git) and [Plugman](https://git-wip-us.apache.org/repos/asf/cordova-plugman.git) from `git`. Running the *npm version* of one and *(git) master version* of the other is likely to end with you suffering.\n\nTo avoid using sudo, see [Get away from sudo: npm without root](http://justjs.com/posts/npm-link-developing-your-own-npm-modules-without-tears).\n\nRun the following commands:\n\n    git clone https://git-wip-us.apache.org/repos/asf/cordova-plugman.git\n    cd cordova-plugman\n    npm install\n    sudo npm link\n    cd ..\n    git clone https://git-wip-us.apache.org/repos/asf/cordova-cli.git\n    cd cordova-cli\n    npm install\n    sudo npm link\n    npm link plugman\n\nNow the `cordova` and `plugman` in your path are the local git versions. Don\'t forget to keep them up to date!\n\n## Installing on Ubuntu\n\n    apt-get install cordova-cli\n\n\n# Getting Started\n\n`cordova-cli` has a single global `create` command that creates new cordova projects into a specified directory. Once you create a project, `cd` into it and you can execute a variety of project-level commands. Completely inspired by git\'s interface.\n\n## Global Commands\n\n- `help` display a help page with all available commands\n- `create <directory> [<id> [<name>]]` create a new cordova project with optional name and id (package name, reverse-domain style)\n\n<a name="project_commands" />\n## Project Commands\n\n- `platform [ls | list]` list all platforms for which the project will build\n- `platform add <platform> [<platform> ...]` add one (or more) platforms as a build target for the project\n- `platform [rm | remove] <platform> [<platform> ...]` removes one (or more) platform build targets from the project\n- `platform [up | update] <platform> ` - updates the Cordova version used for the given platform\n- `plugin [ls | list]` list all plugins included in the project\n- `plugin add <path-to-plugin> [<path-to-plugin> ...]` add one (or more) plugins to the project\n- `plugin [rm | remove] <plugin-name> [<plugin-name> ...]` remove one (or more) plugins from the project.\n- `plugin search [<keyword1> <keyword2> ...]` search the plugin registry for plugins matching the list of keywords\n- `prepare [platform...]` copies files into the specified platforms, or all platforms. It is then ready for building by `Eclipse`, `Xcode`, etc.\n- `compile [platform...]` compiles the app into a binary for each targetted platform. With no parameters, builds for all platforms, otherwise builds for the specified platforms.\n- `build [<platform> [<platform> [...]]]` an alias for `cordova prepare` followed by `cordova compile`\n- `emulate [<platform> [<platform> [...]]]` launch emulators and deploy app to them. With no parameters emulates for all platforms added to the project, otherwise emulates for the specified platforms\n- `serve [port]` launch a local web server allowing you to access each  platform\'s www directory on the given port (default 8000).\n\n### Optional Flags\n\n- `-d` or `--verbose` will pipe out more verbose output to your shell. You can also subscribe to `log` and `warn` events if you are consuming `cordova-cli` as a node module by calling `cordova.on(\'log\', function() {})` or `cordova.on(\'warn\', function() {})`.\n- `-v` or `--version` will print out the version of your `cordova-cli` install.\n\n# Project Directory Structure\nA Cordova application built with `cordova-cli` will have the following directory structure:\n\n    myApp/\n    |-- config.xml\n    |-- hooks/\n    |-- merges/\n    | | |-- android/\n    | | |-- blackberry10/\n    | | `-- ios/\n    |-- www/\n    |-- platforms/\n    | |-- android/\n    | |-- blackberry10/\n    | `-- ios/\n    `-- plugins/\n\n## hooks/\nThis directory may contains scripts used to customize cordova commands. This\ndirectory used to exist at `.cordova/hooks`, but has now been moved to the\nproject root. Any scripts you add to these directories will be executed before\nand after the commands corresponding to the directory name. Useful for\nintegrating your own build systems or integrating with version control systems.\n\nRefer to [hooks-README.md](https://github.com/apache/cordova-lib/blob/master/cordova-lib/templates/hooks-README.md) for more information.\n\n## merges/\nPlatform-specific web assets (HTML, CSS and JavaScript files) are contained within appropriate subfolders in this directory. These are deployed during a `prepare` to the appropriate native directory.  Files placed under `merges/` will override matching files in the `www/` folder for the relevant platform. A quick example, assuming a project structure of:\n\n    merges/\n    |-- ios/\n    | `-- app.js\n    |-- android/\n    | `-- android.js\n    www/\n    `-- app.js\n\nAfter building the Android and iOS projects, the Android application will contain both `app.js` and `android.js`. However, the iOS application will only contain an `app.js`, and it will be the one from `merges/ios/app.js`, overriding the "common" `app.js` located inside `www/`.\n\n## www/\n\nContains the project\'s web artifacts, such as .html, .css and .js files. These are your main application assets. They will be copied on a `cordova prepare` to each platform\'s www directory.\n\n### Your Blanket: config.xml\n\nThis file is what you should be editing to modify your application\'s metadata. Any time you run any cordova-cli commands, the tool will look at the contents of `config.xml` and use all relevant info from this file to define native application information. cordova-cli supports changing your application\'s data via the following elements inside the `config.xml` file:\n\n- The user-facing name can be modified via the contents of the `<name>` element.\n- The package name (AKA bundle identifier or application id) can be modified via the `id` attribute from the top-level `<widget>` element.\n- The version can be modified via the `version` attribute from the top-level `<widget>` element.\n- The whitelist can be modified using the `<access>` elements. Make sure the `origin` attribute of your `<access>` element points to a valid URL (you can use `*` as wildcard). For more information on the whitelisting syntax, see the [docs.phonegap.com](http://docs.phonegap.com/en/2.2.0/guide_whitelist_index.md.html#Domain%20Whitelist%20Guide). You can use either attribute `uri` ([BlackBerry-proprietary](https://developer.blackberry.com/html5/documentation/access_element_834677_11.html)) or `origin` ([standards-compliant](http://www.w3.org/TR/widgets-access/#attributes)) to denote the domain.\n- Platform-specific preferences can be customized via `<preference>` tags. See [docs.phonegap.com](http://docs.phonegap.com/en/2.3.0/guide_project-settings_index.md.html#Project%20Settings) for a list of preferences you can use.\n- The entry/start page for your application can be defined via the `<content src>` element + attribute.\n\n## platforms/\nPlatforms added to your application will have the native application project structures laid out within this directory.\n\n## plugins/\nAny added plugins will be extracted or copied into this directory.\n\n# Hooks\n\nProjects created by cordova-cli have `before` and `after` hooks for each [project command](#project_commands).\n\nThere are two types of hooks: project-specific ones and module-level ones. Both of these types of hooks receive the project root folder as a parameter.\n\n## Project-specific Hooks\n\nThese are located under the `hooks` directory in the root of your cordova project. Any scripts you add to these directories will be executed before and after the appropriate commands. Useful for integrating your own build systems or integrating with version control systems. __Remember__: make your scripts executable.\n\n### Examples\n\n- [`before_build` hook for jade template compiling](https://gist.github.com/4100866) courtesy of [dpogue](http://github.com/dpogue)\n\n## Module-level Hooks\n\nIf you are using cordova-cli as a module within a larger **Node** application, you can also use the standard `EventEmitter` methods to attach to the events. The events include `before_build`, `before_compile`, `before_docs`, `before_emulate`, `before_run`, `before_platform_add`, `before_library_download`, `before_platform_ls`, `before_platform_rm`, `before_plugin_add`, `before_plugin_ls`, `before_plugin_rm` and `before_prepare`. There is also a `library_download` progress event. Additionally, there are `after_` flavours of all the above events.\n\nOnce you `require(\'cordova\')` in your Node project, you will have the usual `EventEmitter` methods available (`on`, `off` or `removeListener`, `removeAllListeners`, and `emit` or `trigger`).\n\n# Examples\n\n## Creating a new cordova project\nThis example shows how to create a project from scratch named KewlApp with iOS and Android platform support, and includes a plugin named Kewlio. The project will live in ~/KewlApp\n\n    cordova create ~/KewlApp KewlApp\n    cd ~/KewlApp\n    cordova platform add ios android\n    cordova plugin add http://example.org/Kewlio-1.2.3.tar.gz\n    cordova build\n\nThe directory structure of KewlApp now looks like this:\n\n    KewlApp/\n    |-- hooks/\n    |-- merges/\n    | |-- android/\n    | `-- ios/\n    |-- www/\n    | `-- index.html\n    |-- platforms/\n    | |-- android/\n    | | `-- …\n    | `-- ios/\n    |   `-- …\n    `-- plugins/\n      `-- Kewlio/\n\n# Contributing\n\n## Running Tests\n\n    npm test\n\n## TO-DO + Issues\n\nPlease check [Cordova issues with the CLI Component](http://issues.cordova.io). If you find issues with this tool, please be so kind as to include relevant information needed to debug issues such as:\n\n- Your operating system and version\n- The application name, directory location, and identifier used with `create`\n- Which mobile SDKs you have installed, and their versions. Related to this: which `Xcode` version if you are submitting issues related to iOS\n- Any error stack traces you received\n\n## Contributors\n\nThanks to everyone for contributing! For a list of people involved, please see the `package.json` file.\n\n\n# Known Issues and Troubleshooting\n\n## Any OS\n\n### Proxy Settings\n\n`cordova-cli` will use `npm`\'s proxy settings. If you downloaded cordova-cli via `npm` and are behind a proxy, chances are cordova-cli should work for you as it will use those settings in the first place. Make sure that the `https-proxy` and `proxy` npm config variables are set properly. See [npm\'s configuration documentation](https://npmjs.org/doc/config.html) for more information.\n\n## Windows\n\n### Trouble Adding Android as a Platform\n\nWhen trying to add a platform on a Windows machine if you run into the following error message:\n    cordova library for "android" already exists. No need to download. Continuing.\n    Checking if platform "android" passes minimum requirements...\n    Checking Android requirements...\n    Running "android list target" (output to follow)\n\n    Error: The command `android` failed. Make sure you have the latest Android SDK installed, and the `android` command (inside the tools/ folder) added t\n    o your path. Output:\n    at C:\\Users\\me\\AppData\\Roaming\\npm\\node_modules\\cordova\\src\\platform.js:185:42\n    at C:\\Users\\me\\AppData\\Roaming\\npm\\node_modules\\cordova\\src\\metadata\\android_parser.js:50:13\n    at C:\\Users\\me\\AppData\\Roaming\\npm\\node_modules\\cordova\\node_modules\\shelljs\\shell.js:1707:7\n    at exithandler (child_process.js:633:7)\n    at ChildProcess.errorhandler (child_process.js:649:5)\n    at ChildProcess.EventEmitter.emit (events.js:95:17)\n    at Process.ChildProcess._handle.onexit (child_process.js:787:12)\n\nrun the command `android list target`.  If you see:\n\n    \'xcopy\' is not recognized as an internal or external command,\n    operable program or batch file.\n\nat the beginning of the command output, it means you will need to fix your Windows Path variable to include xcopy. This location is typically under C:\\Windows\\System32.\n\n## Windows 8\n\nWindows 8 support does not include the ability to launch/run/emulate, so you will need to open **Visual Studio** to see your app live.  You are still able to use the following commands with windows8:\n\n- `platform add windows8`\n- `platform remove windows8`\n- `prepare windows8`\n- `compile windows8`\n- `build windows8`\n\nTo run your app, you will need to open the `.sln` in the `platforms/windows8` folder using **Visual Studio 2012**.\n\n**Visual Studio** will tell you to reload the project if you run any of the above commands while the project is loaded.\n\n## Amazon Fire OS\n\nAmazon Fire OS does not include the ability to emulate. You are still able to use the following commands with Amazon Fire OS\n\n- `platform add amazon-fireos`\n- `platform remove amazon-fireos`\n- `prepare amazon-fireos`\n- `compile amazon-fireos`\n- `build amazon-fireos`\n\n## Ubuntu\n\nThe initial release of cordova-ubuntu does not support building applications for armhf devices automatically. It is possible to produce applications and click packages in a few steps though.\n\nThis bug report documents the issue and solutions for it: https://bugs.launchpad.net/ubuntu/+source/cordova-ubuntu/+bug/1260500 A future release will let developers cross-compile armhf click packages directly from an x86 desktop.\n\n## Firefox OS\n\nFirefox OS does not include the ability to emulate, run and serve. After building, you will have to open the firefoxos platform directory of your app in the App Manager that comes with every firefox browser. \n',
+419 silly resolved     readmeFilename: 'README.md',
+419 silly resolved     _id: 'cordova@3.5.0-0.2.4',
+419 silly resolved     _from: 'cordova@' },
+419 silly resolved   { name: 'ionic',
+419 silly resolved     version: '1.0.14',
+419 silly resolved     preferGlobal: true,
+419 silly resolved     description: 'A tool for creating and developing Ionic Framework mobile apps.',
+419 silly resolved     homepage: 'http://ionicframework.com/',
+419 silly resolved     bin: { ionic: 'bin/ionic' },
+419 silly resolved     keywords:
+419 silly resolved      [ 'ionic',
+419 silly resolved        'ionic framework',
+419 silly resolved        'mobile',
+419 silly resolved        'html5',
+419 silly resolved        'cordova',
+419 silly resolved        'phonegap' ],
+419 silly resolved     repository:
+419 silly resolved      { type: 'git',
+419 silly resolved        url: 'https://github.com/driftyco/ionic-cli.git' },
+419 silly resolved     author: { name: 'Max Lynch', email: 'max@drifty.com' },
+419 silly resolved     license: 'MIT',
+419 silly resolved     dependencies:
+419 silly resolved      { archiver: '0.5.1',
+419 silly resolved        'event-stream': '3.0.x',
+419 silly resolved        'form-data': '~0.1.0',
+419 silly resolved        ncp: '0.4.2',
+419 silly resolved        optimist: '0.6.0',
+419 silly resolved        prompt: '0.2.12',
+419 silly resolved        request: '2.27.0',
+419 silly resolved        shelljs: '0.2.6',
+419 silly resolved        unzip: '0.1.9',
+419 silly resolved        colors: '^0.6.2',
+419 silly resolved        q: '^1.0.1',
+419 silly resolved        npm: '^1.4.6',
+419 silly resolved        connect: '^2.14.5',
+419 silly resolved        open: '0.0.5',
+419 silly resolved        'tiny-lr-fork': '0.0.5',
+419 silly resolved        'connect-livereload': '^0.4.0',
+419 silly resolved        'vinyl-fs': '^0.1.4' },
+419 silly resolved     readme: 'Ionic-Cli\n=========\n\nThe Ionic Framework command line utility makes it easy to start, build, run, and emulate [Ionic](http://ionicframework.com/) apps. In the future, it will also have support for our mobile development services and tools that make Ionic even more powerful.\n\n## Installing\n\n```bash\n$ sudo npm install -g ionic\n```\n\n## Starting an Ionic App\n\n```bash\n$ ionic start myApp\n```\n\n## Adding a platform target\n\n```bash\n$ ionic platform ios android\n```\n\n## Building your app\n\n```bash\n$ ionic build ios\n```\n\n## Emulating your app\n\n```bash\n$ ionic emulate ios\n```\n\n## Running your app\n\n```bash\n$ ionic run ios\n```\n\nIonic uses Cordova underneath, so you can also substitute Cordova commands to prepare/build/emulate/run, or to add additional plugins.\n\nNote: we occasionally anonymous usage statistics to the Ionic team to make the tool better.\n',
+419 silly resolved     readmeFilename: 'README.md',
+419 silly resolved     bugs: { url: 'https://github.com/driftyco/ionic-cli/issues' },
+419 silly resolved     _id: 'ionic@1.0.14',
+419 silly resolved     dist: { shasum: 'c942bde5008d065b88f24fe2b435681c2ca9a2e1' },
+419 silly resolved     _from: 'ionic@',
+419 silly resolved     _resolved: 'https://registry.npmjs.org/ionic/-/ionic-1.0.14.tgz' } ]
+420 info install cordova@3.5.0-0.2.4 into /usr/local/lib
+421 info install ionic@1.0.14 into /usr/local/lib
+422 info installOne cordova@3.5.0-0.2.4
+423 info installOne ionic@1.0.14
+424 verbose from cache /Users/Serena/.npm/ionic/1.0.14/package/package.json
+425 info /usr/local/lib/node_modules/ionic unbuild
+426 verbose read json /usr/local/lib/node_modules/ionic/package.json
+427 verbose from cache /Users/Serena/.npm/cordova/3.5.0-0.2.4/package/package.json
+428 info /usr/local/lib/node_modules/cordova unbuild
+429 verbose read json /usr/local/lib/node_modules/cordova/package.json
+430 verbose tar unpack /Users/Serena/.npm/ionic/1.0.14/package.tgz
+431 silly lockFile 61c0cd50-usr-local-lib-node-modules-ionic /usr/local/lib/node_modules/ionic
+432 verbose lock /usr/local/lib/node_modules/ionic /Users/Serena/.npm/61c0cd50-usr-local-lib-node-modules-ionic.lock
+433 silly lockFile 666bfebe-ena-npm-ionic-1-0-14-package-tgz /Users/Serena/.npm/ionic/1.0.14/package.tgz
+434 verbose lock /Users/Serena/.npm/ionic/1.0.14/package.tgz /Users/Serena/.npm/666bfebe-ena-npm-ionic-1-0-14-package-tgz.lock
+435 silly gunzTarPerm modes [ '755', '644' ]
+436 silly gunzTarPerm extractEntry package.json
+437 silly gunzTarPerm extractEntry .npmignore
+438 silly gunzTarPerm extractEntry README.md
+439 silly gunzTarPerm extractEntry LICENSE
+440 silly gunzTarPerm extractEntry .gitattributes
+441 silly gunzTarPerm extractEntry bin/ionic
+442 silly gunzTarPerm extractEntry bin/test/package.json
+443 silly gunzTarPerm extractEntry bin/test/.npmignore
+444 silly gunzTarPerm extractEntry bin/test/README.md
+445 silly gunzTarPerm extractEntry bin/test/gulpfile.js
+446 silly gunzTarPerm extractEntry bin/test/hooks/.npmignore
+447 silly gunzTarPerm extractEntry bin/test/hooks/README.md
+448 silly gunzTarPerm extractEntry bin/test/config.xml
+449 silly gunzTarPerm extractEntry bin/test/www/.npmignore
+450 silly gunzTarPerm extractEntry bin/test/www/README.md
+451 silly gunzTarPerm extractEntry bin/test/www/css/style.css
+452 silly gunzTarPerm extractEntry bin/test/www/img/ionic.png
+453 silly gunzTarPerm extractEntry bin/test/www/index.html
+454 silly gunzTarPerm extractEntry bin/test/www/js/app.js
+455 silly gunzTarPerm extractEntry bin/test/www/js/controllers.js
+456 silly gunzTarPerm extractEntry bin/test/www/js/services.js
+457 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/css/ionic.css
+458 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/css/ionic.min.css
+459 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/fonts/ionicons.eot
+460 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/fonts/ionicons.svg
+461 info preuninstall cordova@3.5.0-0.2.4
+462 info uninstall cordova@3.5.0-0.2.4
+463 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild cordova@3.5.0-0.2.4
+464 verbose /usr/local/bin,[object Object] binRoot
+465 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/fonts/ionicons.ttf
+466 info postuninstall cordova@3.5.0-0.2.4
+467 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/fonts/ionicons.woff
+468 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic-angular.js
+469 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic-angular.min.js
+470 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic.bundle.js
+471 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic.bundle.min.js
+472 verbose tar unpack /Users/Serena/.npm/cordova/3.5.0-0.2.4/package.tgz
+473 silly lockFile fa12e2e0-r-local-lib-node-modules-cordova /usr/local/lib/node_modules/cordova
+474 verbose lock /usr/local/lib/node_modules/cordova /Users/Serena/.npm/fa12e2e0-r-local-lib-node-modules-cordova.lock
+475 silly lockFile c83711c0--cordova-3-5-0-0-2-4-package-tgz /Users/Serena/.npm/cordova/3.5.0-0.2.4/package.tgz
+476 verbose lock /Users/Serena/.npm/cordova/3.5.0-0.2.4/package.tgz /Users/Serena/.npm/c83711c0--cordova-3-5-0-0-2-4-package-tgz.lock
+477 silly gunzTarPerm modes [ '755', '644' ]
+478 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic.js
+479 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/ionic.min.js
+480 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-animate.js
+481 silly gunzTarPerm extractEntry package.json
+482 silly gunzTarPerm extractEntry .npmignore
+483 silly gunzTarPerm extractEntry README.md
+484 silly gunzTarPerm extractEntry LICENSE
+485 silly gunzTarPerm extractEntry cordova.js
+486 silly gunzTarPerm extractEntry CONTRIBUTING.md
+487 silly gunzTarPerm extractEntry RELEASENOTES.md
+488 silly gunzTarPerm extractEntry .reviewboardrc
+489 silly gunzTarPerm extractEntry bin/cordova
+490 silly gunzTarPerm extractEntry bin/cordova.cmd
+491 silly gunzTarPerm extractEntry src/cli.js
+492 silly gunzTarPerm extractEntry src/help.js
+493 silly gunzTarPerm extractEntry doc/bash.md
+494 silly gunzTarPerm extractEntry doc/help.txt
+495 silly gunzTarPerm extractEntry NOTICE
+496 silly gunzTarPerm extractEntry scripts/cordova.completion
+497 silly gunzTarPerm extractEntry VERSION
+498 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-animate.min.js
+499 verbose read json /usr/local/lib/node_modules/cordova/package.json
+500 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-resource.js
+501 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-resource.min.js
+502 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-sanitize.js
+503 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular-sanitize.min.js
+504 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular.js
+505 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular/angular.min.js
+506 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular-ui/angular-ui-router.js
+507 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/js/angular-ui/angular-ui-router.min.js
+508 silly lockFile fa12e2e0-r-local-lib-node-modules-cordova /usr/local/lib/node_modules/cordova
+509 silly lockFile fa12e2e0-r-local-lib-node-modules-cordova /usr/local/lib/node_modules/cordova
+510 silly lockFile c83711c0--cordova-3-5-0-0-2-4-package-tgz /Users/Serena/.npm/cordova/3.5.0-0.2.4/package.tgz
+511 silly lockFile c83711c0--cordova-3-5-0-0-2-4-package-tgz /Users/Serena/.npm/cordova/3.5.0-0.2.4/package.tgz
+512 info preinstall cordova@3.5.0-0.2.4
+513 verbose from cache /usr/local/lib/node_modules/cordova/package.json
+514 verbose readDependencies using package.json deps
+515 verbose from cache /usr/local/lib/node_modules/cordova/package.json
+516 verbose readDependencies using package.json deps
+517 verbose cache add [ 'cordova-lib@0.21.3', null ]
+518 verbose cache add name=undefined spec="cordova-lib@0.21.3" args=["cordova-lib@0.21.3",null]
+519 verbose parsed url { protocol: null,
+519 verbose parsed url   slashes: null,
+519 verbose parsed url   auth: null,
+519 verbose parsed url   host: null,
+519 verbose parsed url   port: null,
+519 verbose parsed url   hostname: null,
+519 verbose parsed url   hash: null,
+519 verbose parsed url   search: null,
+519 verbose parsed url   query: null,
+519 verbose parsed url   pathname: 'cordova-lib@0.21.3',
+519 verbose parsed url   path: 'cordova-lib@0.21.3',
+519 verbose parsed url   href: 'cordova-lib@0.21.3' }
+520 verbose cache add name="cordova-lib" spec="0.21.3" args=["cordova-lib","0.21.3"]
+521 verbose parsed url { protocol: null,
+521 verbose parsed url   slashes: null,
+521 verbose parsed url   auth: null,
+521 verbose parsed url   host: null,
+521 verbose parsed url   port: null,
+521 verbose parsed url   hostname: null,
+521 verbose parsed url   hash: null,
+521 verbose parsed url   search: null,
+521 verbose parsed url   query: null,
+521 verbose parsed url   pathname: '0.21.3',
+521 verbose parsed url   path: '0.21.3',
+521 verbose parsed url   href: '0.21.3' }
+522 verbose addNamed [ 'cordova-lib', '0.21.3' ]
+523 verbose addNamed [ '0.21.3', '0.21.3' ]
+524 silly lockFile 72b96cf4-cordova-lib-0-21-3 cordova-lib@0.21.3
+525 verbose lock cordova-lib@0.21.3 /Users/Serena/.npm/72b96cf4-cordova-lib-0-21-3.lock
+526 verbose cache add [ 'q@~0.9', null ]
+527 verbose cache add name=undefined spec="q@~0.9" args=["q@~0.9",null]
+528 verbose parsed url { protocol: null,
+528 verbose parsed url   slashes: null,
+528 verbose parsed url   auth: null,
+528 verbose parsed url   host: null,
+528 verbose parsed url   port: null,
+528 verbose parsed url   hostname: null,
+528 verbose parsed url   hash: null,
+528 verbose parsed url   search: null,
+528 verbose parsed url   query: null,
+528 verbose parsed url   pathname: 'q@~0.9',
+528 verbose parsed url   path: 'q@~0.9',
+528 verbose parsed url   href: 'q@~0.9' }
+529 verbose cache add name="q" spec="~0.9" args=["q","~0.9"]
+530 verbose parsed url { protocol: null,
+530 verbose parsed url   slashes: null,
+530 verbose parsed url   auth: null,
+530 verbose parsed url   host: null,
+530 verbose parsed url   port: null,
+530 verbose parsed url   hostname: null,
+530 verbose parsed url   hash: null,
+530 verbose parsed url   search: null,
+530 verbose parsed url   query: null,
+530 verbose parsed url   pathname: '~0.9',
+530 verbose parsed url   path: '~0.9',
+530 verbose parsed url   href: '~0.9' }
+531 verbose addNamed [ 'q', '~0.9' ]
+532 verbose addNamed [ null, '>=0.9.0- <0.10.0-' ]
+533 silly lockFile 81c03ade-q-0-9 q@~0.9
+534 verbose lock q@~0.9 /Users/Serena/.npm/81c03ade-q-0-9.lock
+535 verbose cache add [ 'optimist@0.6.0', null ]
+536 verbose cache add name=undefined spec="optimist@0.6.0" args=["optimist@0.6.0",null]
+537 verbose parsed url { protocol: null,
+537 verbose parsed url   slashes: null,
+537 verbose parsed url   auth: null,
+537 verbose parsed url   host: null,
+537 verbose parsed url   port: null,
+537 verbose parsed url   hostname: null,
+537 verbose parsed url   hash: null,
+537 verbose parsed url   search: null,
+537 verbose parsed url   query: null,
+537 verbose parsed url   pathname: 'optimist@0.6.0',
+537 verbose parsed url   path: 'optimist@0.6.0',
+537 verbose parsed url   href: 'optimist@0.6.0' }
+538 verbose cache add name="optimist" spec="0.6.0" args=["optimist","0.6.0"]
+539 verbose parsed url { protocol: null,
+539 verbose parsed url   slashes: null,
+539 verbose parsed url   auth: null,
+539 verbose parsed url   host: null,
+539 verbose parsed url   port: null,
+539 verbose parsed url   hostname: null,
+539 verbose parsed url   hash: null,
+539 verbose parsed url   search: null,
+539 verbose parsed url   query: null,
+539 verbose parsed url   pathname: '0.6.0',
+539 verbose parsed url   path: '0.6.0',
+539 verbose parsed url   href: '0.6.0' }
+540 verbose addNamed [ 'optimist', '0.6.0' ]
+541 verbose addNamed [ '0.6.0', '0.6.0' ]
+542 silly lockFile 6403b4d6-optimist-0-6-0 optimist@0.6.0
+543 verbose lock optimist@0.6.0 /Users/Serena/.npm/6403b4d6-optimist-0-6-0.lock
+544 silly addNameRange { name: 'q', range: '>=0.9.0- <0.10.0-', hasData: false }
+545 verbose cache add [ 'underscore@1.4.4', null ]
+546 verbose cache add name=undefined spec="underscore@1.4.4" args=["underscore@1.4.4",null]
+547 verbose parsed url { protocol: null,
+547 verbose parsed url   slashes: null,
+547 verbose parsed url   auth: null,
+547 verbose parsed url   host: null,
+547 verbose parsed url   port: null,
+547 verbose parsed url   hostname: null,
+547 verbose parsed url   hash: null,
+547 verbose parsed url   search: null,
+547 verbose parsed url   query: null,
+547 verbose parsed url   pathname: 'underscore@1.4.4',
+547 verbose parsed url   path: 'underscore@1.4.4',
+547 verbose parsed url   href: 'underscore@1.4.4' }
+548 verbose cache add name="underscore" spec="1.4.4" args=["underscore","1.4.4"]
+549 verbose parsed url { protocol: null,
+549 verbose parsed url   slashes: null,
+549 verbose parsed url   auth: null,
+549 verbose parsed url   host: null,
+549 verbose parsed url   port: null,
+549 verbose parsed url   hostname: null,
+549 verbose parsed url   hash: null,
+549 verbose parsed url   search: null,
+549 verbose parsed url   query: null,
+549 verbose parsed url   pathname: '1.4.4',
+549 verbose parsed url   path: '1.4.4',
+549 verbose parsed url   href: '1.4.4' }
+550 verbose addNamed [ 'underscore', '1.4.4' ]
+551 verbose addNamed [ '1.4.4', '1.4.4' ]
+552 silly lockFile c6b5e825-underscore-1-4-4 underscore@1.4.4
+553 verbose lock underscore@1.4.4 /Users/Serena/.npm/c6b5e825-underscore-1-4-4.lock
+554 verbose url raw cordova-lib/0.21.3
+555 verbose url resolving [ 'https://registry.npmjs.org/', './cordova-lib/0.21.3' ]
+556 verbose url resolved https://registry.npmjs.org/cordova-lib/0.21.3
+557 info trying registry request attempt 1 at 11:09:21
+558 verbose etag "9CY0A2MTOMVNA9HLPV2YTSI45"
+559 http GET https://registry.npmjs.org/cordova-lib/0.21.3
+560 verbose url raw q
+561 verbose url resolving [ 'https://registry.npmjs.org/', './q' ]
+562 verbose url resolved https://registry.npmjs.org/q
+563 info trying registry request attempt 1 at 11:09:21
+564 verbose etag "AE2S6N2GJWH2DQ81LRMDGELHI"
+565 http GET https://registry.npmjs.org/q
+566 verbose url raw optimist/0.6.0
+567 verbose url resolving [ 'https://registry.npmjs.org/', './optimist/0.6.0' ]
+568 verbose url resolved https://registry.npmjs.org/optimist/0.6.0
+569 info trying registry request attempt 1 at 11:09:21
+570 verbose etag "A9DM06UEDJZDNZ4IB3465BAS7"
+571 http GET https://registry.npmjs.org/optimist/0.6.0
+572 verbose url raw underscore/1.4.4
+573 verbose url resolving [ 'https://registry.npmjs.org/', './underscore/1.4.4' ]
+574 verbose url resolved https://registry.npmjs.org/underscore/1.4.4
+575 info trying registry request attempt 1 at 11:09:21
+576 verbose etag "CKWL2GTEXT389MLUIHXWB6LZ1"
+577 http GET https://registry.npmjs.org/underscore/1.4.4
+578 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_platform.scss
+579 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_action-sheet.scss
+580 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_backdrop.scss
+581 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_badge.scss
+582 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_bar.scss
+583 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_button-bar.scss
+584 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_button.scss
+585 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_checkbox.scss
+586 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_form.scss
+587 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_grid.scss
+588 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_items.scss
+589 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_list.scss
+590 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_loading.scss
+591 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_menu.scss
+592 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_mixins.scss
+593 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_modal.scss
+594 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_animations.scss
+595 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_popup.scss
+596 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_progress.scss
+597 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_radio.scss
+598 http 304 https://registry.npmjs.org/optimist/0.6.0
+599 silly registry.get cb [ 304,
+599 silly registry.get   { date: 'Fri, 06 Jun 2014 15:09:21 GMT',
+599 silly registry.get     server: 'Apache',
+599 silly registry.get     via: '1.1 varnish',
+599 silly registry.get     'last-modified': 'Fri, 06 Jun 2014 15:09:21 GMT',
+599 silly registry.get     'cache-control': 'max-age=1',
+599 silly registry.get     etag: '"A9DM06UEDJZDNZ4IB3465BAS7"',
+599 silly registry.get     'x-served-by': 'cache-iad2126-IAD',
+599 silly registry.get     'x-cache': 'MISS',
+599 silly registry.get     'x-cache-hits': '0',
+599 silly registry.get     'x-timer': 'S1402067361.409437,VS0,VE106',
+599 silly registry.get     vary: 'Accept',
+599 silly registry.get     'content-length': '0',
+599 silly registry.get     'keep-alive': 'timeout=10, max=50',
+599 silly registry.get     connection: 'Keep-Alive' } ]
+600 verbose etag optimist/0.6.0 from cache
+601 verbose read json /Users/Serena/.npm/optimist/0.6.0/package/package.json
+602 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_range.scss
+603 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_reset.scss
+604 http 304 https://registry.npmjs.org/cordova-lib/0.21.3
+605 silly registry.get cb [ 304,
+605 silly registry.get   { date: 'Fri, 06 Jun 2014 15:09:21 GMT',
+605 silly registry.get     server: 'Apache',
+605 silly registry.get     via: '1.1 varnish',
+605 silly registry.get     'last-modified': 'Fri, 06 Jun 2014 15:09:21 GMT',
+605 silly registry.get     'cache-control': 'max-age=1',
+605 silly registry.get     etag: '"9CY0A2MTOMVNA9HLPV2YTSI45"',
+605 silly registry.get     'x-served-by': 'cache-iad2120-IAD',
+605 silly registry.get     'x-cache': 'MISS',
+605 silly registry.get     'x-cache-hits': '0',
+605 silly registry.get     'x-timer': 'S1402067361.382481,VS0,VE163',
+605 silly registry.get     vary: 'Accept',
+605 silly registry.get     'content-length': '0',
+605 silly registry.get     'keep-alive': 'timeout=10, max=50',
+605 silly registry.get     connection: 'Keep-Alive' } ]
+606 verbose etag cordova-lib/0.21.3 from cache
+607 silly lockFile 6403b4d6-optimist-0-6-0 optimist@0.6.0
+608 silly lockFile 6403b4d6-optimist-0-6-0 optimist@0.6.0
+609 verbose read json /Users/Serena/.npm/cordova-lib/0.21.3/package/package.json
+610 silly lockFile 72b96cf4-cordova-lib-0-21-3 cordova-lib@0.21.3
+611 silly lockFile 72b96cf4-cordova-lib-0-21-3 cordova-lib@0.21.3
+612 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_scaffolding.scss
+613 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_select.scss
+614 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_slide-box.scss
+615 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_split-pane.scss
+616 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_tabs.scss
+617 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_toggle.scss
+618 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_type.scss
+619 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_util.scss
+620 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/_variables.scss
+621 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionic.scss
+622 http 200 https://registry.npmjs.org/underscore/1.4.4
+623 silly registry.get cb [ 200,
+623 silly registry.get   { date: 'Fri, 06 Jun 2014 15:09:21 GMT',
+623 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+623 silly registry.get     etag: '"9HKWIKMYJIHROWRAYWSRE4KR0"',
+623 silly registry.get     'content-type': 'application/json',
+623 silly registry.get     via: '1.1 varnish',
+623 silly registry.get     'cache-control': 'max-age=1',
+623 silly registry.get     'content-length': '832',
+623 silly registry.get     'accept-ranges': 'bytes',
+623 silly registry.get     age: '99',
+623 silly registry.get     'x-served-by': 'cache-sv63-SJC3, cache-iad2134-IAD',
+623 silly registry.get     'x-cache': 'MISS, MISS',
+623 silly registry.get     'x-cache-hits': '0, 0',
+623 silly registry.get     'x-timer': 'S1402067361.438639,VS0,VE153',
+623 silly registry.get     vary: 'Accept',
+623 silly registry.get     'keep-alive': 'timeout=10, max=50',
+623 silly registry.get     connection: 'Keep-Alive' } ]
+624 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionicons/_ionicons-animation.scss
+625 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionicons/_ionicons-font.scss
+626 silly lockFile 91efdde3--underscore-underscore-1-4-4-tgz https://registry.npmjs.org/underscore/-/underscore-1.4.4.tgz
+627 verbose lock https://registry.npmjs.org/underscore/-/underscore-1.4.4.tgz /Users/Serena/.npm/91efdde3--underscore-underscore-1-4-4-tgz.lock
+628 verbose addRemoteTarball [ 'https://registry.npmjs.org/underscore/-/underscore-1.4.4.tgz',
+628 verbose addRemoteTarball   '61a6a32010622afa07963bf325203cf12239d604' ]
+629 info retry fetch attempt 1 at 11:09:21
+630 verbose fetch to= /Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/tmp.tgz
+631 http GET https://registry.npmjs.org/underscore/-/underscore-1.4.4.tgz
+632 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionicons/_ionicons-icons.scss
+633 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionicons/_ionicons-variables.scss
+634 http 200 https://registry.npmjs.org/q
+635 silly registry.get cb [ 200,
+635 silly registry.get   { date: 'Fri, 06 Jun 2014 15:09:21 GMT',
+635 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+635 silly registry.get     etag: '"8103D5FEXZV084DGCPN8G982K"',
+635 silly registry.get     'content-type': 'application/json',
+635 silly registry.get     via: '1.1 varnish',
+635 silly registry.get     'cache-control': 'max-age=1',
+635 silly registry.get     'content-length': '127149',
+635 silly registry.get     'accept-ranges': 'bytes',
+635 silly registry.get     age: '109',
+635 silly registry.get     'x-served-by': 'cache-sv61-SJC3, cache-iad2128-IAD',
+635 silly registry.get     'x-cache': 'HIT, HIT',
+635 silly registry.get     'x-cache-hits': '2, 1',
+635 silly registry.get     'x-timer': 'S1402067361.399523,VS0,VE73',
+635 silly registry.get     vary: 'Accept',
+635 silly registry.get     'keep-alive': 'timeout=10, max=50',
+635 silly registry.get     connection: 'Keep-Alive' } ]
+636 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/scss/ionicons/ionicons.scss
+637 silly addNameRange number 2 { name: 'q', range: '>=0.9.0- <0.10.0-', hasData: true }
+638 silly addNameRange versions [ 'q',
+638 silly addNameRange   [ '0.0.0',
+638 silly addNameRange     '0.0.1',
+638 silly addNameRange     '0.0.2',
+638 silly addNameRange     '0.0.3',
+638 silly addNameRange     '0.1.0',
+638 silly addNameRange     '0.1.1',
+638 silly addNameRange     '0.1.2',
+638 silly addNameRange     '0.1.3',
+638 silly addNameRange     '0.1.4',
+638 silly addNameRange     '0.1.5',
+638 silly addNameRange     '0.1.6',
+638 silly addNameRange     '0.1.7',
+638 silly addNameRange     '0.1.8',
+638 silly addNameRange     '0.1.9',
+638 silly addNameRange     '0.2.0-rc1',
+638 silly addNameRange     '0.2.0',
+638 silly addNameRange     '0.2.1',
+638 silly addNameRange     '0.2.2',
+638 silly addNameRange     '0.2.3',
+638 silly addNameRange     '0.2.4',
+638 silly addNameRange     '0.2.5',
+638 silly addNameRange     '0.2.6',
+638 silly addNameRange     '0.2.7',
+638 silly addNameRange     '0.2.8',
+638 silly addNameRange     '0.2.9',
+638 silly addNameRange     '0.3.0',
+638 silly addNameRange     '0.2.10',
+638 silly addNameRange     '0.4.0',
+638 silly addNameRange     '0.4.1',
+638 silly addNameRange     '0.4.2',
+638 silly addNameRange     '0.4.4',
+638 silly addNameRange     '0.5.0',
+638 silly addNameRange     '0.5.1',
+638 silly addNameRange     '0.5.2',
+638 silly addNameRange     '0.5.3',
+638 silly addNameRange     '0.6.0',
+638 silly addNameRange     '0.7.0',
+638 silly addNameRange     '0.7.1',
+638 silly addNameRange     '0.7.2',
+638 silly addNameRange     '0.8.0',
+638 silly addNameRange     '0.8.1',
+638 silly addNameRange     '0.8.2',
+638 silly addNameRange     '0.8.3',
+638 silly addNameRange     '0.8.4',
+638 silly addNameRange     '0.8.5',
+638 silly addNameRange     '0.8.6',
+638 silly addNameRange     '0.8.7',
+638 silly addNameRange     '0.8.8',
+638 silly addNameRange     '0.8.9',
+638 silly addNameRange     '0.8.10',
+638 silly addNameRange     '0.8.11',
+638 silly addNameRange     '0.8.12',
+638 silly addNameRange     '0.9.0',
+638 silly addNameRange     '0.9.1',
+638 silly addNameRange     '0.9.2',
+638 silly addNameRange     '0.9.3',
+638 silly addNameRange     '0.9.4',
+638 silly addNameRange     '0.9.5',
+638 silly addNameRange     '0.9.6',
+638 silly addNameRange     '0.9.7',
+638 silly addNameRange     '1.0.0',
+638 silly addNameRange     '1.0.1',
+638 silly addNameRange     '2.0.0',
+638 silly addNameRange     '2.0.1',
+638 silly addNameRange     '2.0.2' ] ]
+639 verbose addNamed [ 'q', '0.9.7' ]
+640 verbose addNamed [ '0.9.7', '0.9.7' ]
+641 silly lockFile cc8e51ee-q-0-9-7 q@0.9.7
+642 verbose lock q@0.9.7 /Users/Serena/.npm/cc8e51ee-q-0-9-7.lock
+643 silly gunzTarPerm extractEntry bin/test/www/lib/ionic/version.json
+644 silly gunzTarPerm extractEntry bin/test/www/templates/friend-detail.html
+645 verbose read json /Users/Serena/.npm/q/0.9.7/package/package.json
+646 silly gunzTarPerm extractEntry bin/test/www/templates/tab-account.html
+647 silly gunzTarPerm extractEntry bin/test/www/templates/tab-dash.html
+648 silly gunzTarPerm extractEntry bin/test/www/templates/tab-friends.html
+649 silly gunzTarPerm extractEntry bin/test/www/templates/tabs.html
+650 silly gunzTarPerm extractEntry bin/test/platforms/.npmignore
+651 silly gunzTarPerm extractEntry bin/test/plugins/.npmignore
+652 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/package.json
+653 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/README.md
+654 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/LICENSE
+655 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/.fetch.json
+656 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/plugin.xml
+657 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/src/android/IonicKeyboard.java
+658 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/src/ios/IonicKeyboard.h
+659 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/src/ios/IonicKeyboard.m
+660 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/src/ios/UIWebViewExtension.h
+661 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/src/ios/UIWebViewExtension.m
+662 silly gunzTarPerm extractEntry bin/test/plugins/com.ionic.keyboard/www/keyboard.js
+663 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/package.json
+664 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/README.md
+665 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/LICENSE
+666 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/.fetch.json
+667 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/NOTICE
+668 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/RELEASENOTES.md
+669 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/doc/index.md
+670 silly lockFile cc8e51ee-q-0-9-7 q@0.9.7
+671 silly lockFile cc8e51ee-q-0-9-7 q@0.9.7
+672 silly lockFile 81c03ade-q-0-9 q@~0.9
+673 silly lockFile 81c03ade-q-0-9 q@~0.9
+674 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/plugin.xml
+675 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/src/ios/CDVLogger.h
+676 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/src/ios/CDVLogger.m
+677 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/src/ubuntu/console.cpp
+678 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/src/ubuntu/console.h
+679 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/src/wp/DebugConsole.cs
+680 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/www/console-via-logger.js
+681 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.console/www/logger.js
+682 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/package.json
+683 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/README.md
+684 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/LICENSE
+685 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/.fetch.json
+686 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/NOTICE
+687 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/RELEASENOTES.md
+688 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/doc/index.md
+689 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/plugin.xml
+690 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/android/Device.java
+691 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/blackberry10/index.js
+692 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/firefoxos/DeviceProxy.js
+693 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/ios/CDVDevice.h
+694 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/ios/CDVDevice.m
+695 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/tizen/DeviceProxy.js
+696 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/ubuntu/device.js
+697 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/ubuntu/device.cpp
+698 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/ubuntu/device.h
+699 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/windows8/DeviceProxy.js
+700 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/src/wp/Device.cs
+701 silly gunzTarPerm extractEntry bin/test/plugins/org.apache.cordova.device/www/device.js
+702 silly gunzTarPerm extractEntry bin/test/scss/ionic.app.scss
+703 silly gunzTarPerm extractEntry bin/test/ionic.project
+704 silly gunzTarPerm extractEntry lib/ionic.js
+705 silly gunzTarPerm extractEntry lib/ionic/build.js
+706 http 200 https://registry.npmjs.org/underscore/-/underscore-1.4.4.tgz
+707 silly gunzTarPerm extractEntry lib/ionic/login.js
+708 silly gunzTarPerm extractEntry lib/ionic/package.js
+709 silly gunzTarPerm extractEntry lib/ionic/platform.js
+710 silly gunzTarPerm extractEntry lib/ionic/private.js
+711 silly gunzTarPerm extractEntry lib/ionic/emulate.js
+712 silly gunzTarPerm extractEntry lib/ionic/run.js
+713 silly gunzTarPerm extractEntry lib/ionic/serve.js
+714 silly gunzTarPerm extractEntry lib/ionic/start.js
+715 silly gunzTarPerm extractEntry lib/ionic/stats.js
+716 silly gunzTarPerm extractEntry lib/ionic/task.js
+717 silly gunzTarPerm extractEntry lib/ionic/config.js
+718 silly gunzTarPerm extractEntry lib/ionic/upload.js
+719 silly gunzTarPerm extractEntry lib/ionic/project.js
+720 verbose tar unpack /Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/tmp.tgz
+721 silly lockFile 2cd31a33-61602-0-5834961761720479-package /Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/package
+722 verbose lock /Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/package /Users/Serena/.npm/2cd31a33-61602-0-5834961761720479-package.lock
+723 silly lockFile faf60ab6-61602-0-5834961761720479-tmp-tgz /Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/tmp.tgz
+724 verbose lock /Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/tmp.tgz /Users/Serena/.npm/faf60ab6-61602-0-5834961761720479-tmp-tgz.lock
+725 silly gunzTarPerm modes [ '755', '644' ]
+726 silly gunzTarPerm extractEntry package.json
+727 silly gunzTarPerm extractEntry .npmignore
+728 silly gunzTarPerm extractEntry README.md
+729 silly gunzTarPerm extractEntry LICENSE
+730 silly gunzTarPerm extractEntry underscore-min.js
+731 silly gunzTarPerm extractEntry underscore.js
+732 silly gunzTarPerm extractEntry index.js
+733 silly gunzTarPerm extractEntry .travis.yml
+734 silly gunzTarPerm extractEntry index.html
+735 silly gunzTarPerm extractEntry favicon.ico
+736 silly gunzTarPerm extractEntry CONTRIBUTING.md
+737 silly gunzTarPerm extractEntry CNAME
+738 verbose read json /Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/package/package.json
+739 silly lockFile 2cd31a33-61602-0-5834961761720479-package /Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/package
+740 silly lockFile 2cd31a33-61602-0-5834961761720479-package /Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/package
+741 silly lockFile faf60ab6-61602-0-5834961761720479-tmp-tgz /Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/tmp.tgz
+742 silly lockFile faf60ab6-61602-0-5834961761720479-tmp-tgz /Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/tmp.tgz
+743 verbose from cache /Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/package/package.json
+744 verbose tar pack [ '/Users/Serena/.npm/underscore/1.4.4/package.tgz',
+744 verbose tar pack   '/Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/package' ]
+745 verbose tarball /Users/Serena/.npm/underscore/1.4.4/package.tgz
+746 verbose folder /Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/package
+747 silly lockFile 2cd31a33-61602-0-5834961761720479-package /Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/package
+748 verbose lock /Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/package /Users/Serena/.npm/2cd31a33-61602-0-5834961761720479-package.lock
+749 silly lockFile 01178652-npm-underscore-1-4-4-package-tgz /Users/Serena/.npm/underscore/1.4.4/package.tgz
+750 verbose lock /Users/Serena/.npm/underscore/1.4.4/package.tgz /Users/Serena/.npm/01178652-npm-underscore-1-4-4-package-tgz.lock
+751 verbose read json /usr/local/lib/node_modules/ionic/package.json
+752 silly lockFile 61c0cd50-usr-local-lib-node-modules-ionic /usr/local/lib/node_modules/ionic
+753 silly lockFile 61c0cd50-usr-local-lib-node-modules-ionic /usr/local/lib/node_modules/ionic
+754 silly lockFile 666bfebe-ena-npm-ionic-1-0-14-package-tgz /Users/Serena/.npm/ionic/1.0.14/package.tgz
+755 silly lockFile 666bfebe-ena-npm-ionic-1-0-14-package-tgz /Users/Serena/.npm/ionic/1.0.14/package.tgz
+756 info preinstall ionic@1.0.14
+757 verbose from cache /usr/local/lib/node_modules/ionic/package.json
+758 verbose readDependencies using package.json deps
+759 verbose from cache /usr/local/lib/node_modules/ionic/package.json
+760 verbose readDependencies using package.json deps
+761 verbose cache add [ 'archiver@0.5.1', null ]
+762 verbose cache add name=undefined spec="archiver@0.5.1" args=["archiver@0.5.1",null]
+763 verbose parsed url { protocol: null,
+763 verbose parsed url   slashes: null,
+763 verbose parsed url   auth: null,
+763 verbose parsed url   host: null,
+763 verbose parsed url   port: null,
+763 verbose parsed url   hostname: null,
+763 verbose parsed url   hash: null,
+763 verbose parsed url   search: null,
+763 verbose parsed url   query: null,
+763 verbose parsed url   pathname: 'archiver@0.5.1',
+763 verbose parsed url   path: 'archiver@0.5.1',
+763 verbose parsed url   href: 'archiver@0.5.1' }
+764 verbose cache add name="archiver" spec="0.5.1" args=["archiver","0.5.1"]
+765 verbose parsed url { protocol: null,
+765 verbose parsed url   slashes: null,
+765 verbose parsed url   auth: null,
+765 verbose parsed url   host: null,
+765 verbose parsed url   port: null,
+765 verbose parsed url   hostname: null,
+765 verbose parsed url   hash: null,
+765 verbose parsed url   search: null,
+765 verbose parsed url   query: null,
+765 verbose parsed url   pathname: '0.5.1',
+765 verbose parsed url   path: '0.5.1',
+765 verbose parsed url   href: '0.5.1' }
+766 verbose addNamed [ 'archiver', '0.5.1' ]
+767 verbose addNamed [ '0.5.1', '0.5.1' ]
+768 silly lockFile d0260f1e-archiver-0-5-1 archiver@0.5.1
+769 verbose lock archiver@0.5.1 /Users/Serena/.npm/d0260f1e-archiver-0-5-1.lock
+770 verbose cache add [ 'event-stream@3.0.x', null ]
+771 verbose cache add name=undefined spec="event-stream@3.0.x" args=["event-stream@3.0.x",null]
+772 verbose parsed url { protocol: null,
+772 verbose parsed url   slashes: null,
+772 verbose parsed url   auth: null,
+772 verbose parsed url   host: null,
+772 verbose parsed url   port: null,
+772 verbose parsed url   hostname: null,
+772 verbose parsed url   hash: null,
+772 verbose parsed url   search: null,
+772 verbose parsed url   query: null,
+772 verbose parsed url   pathname: 'event-stream@3.0.x',
+772 verbose parsed url   path: 'event-stream@3.0.x',
+772 verbose parsed url   href: 'event-stream@3.0.x' }
+773 verbose cache add name="event-stream" spec="3.0.x" args=["event-stream","3.0.x"]
+774 verbose parsed url { protocol: null,
+774 verbose parsed url   slashes: null,
+774 verbose parsed url   auth: null,
+774 verbose parsed url   host: null,
+774 verbose parsed url   port: null,
+774 verbose parsed url   hostname: null,
+774 verbose parsed url   hash: null,
+774 verbose parsed url   search: null,
+774 verbose parsed url   query: null,
+774 verbose parsed url   pathname: '3.0.x',
+774 verbose parsed url   path: '3.0.x',
+774 verbose parsed url   href: '3.0.x' }
+775 verbose addNamed [ 'event-stream', '3.0.x' ]
+776 verbose addNamed [ null, '>=3.0.0- <3.1.0-' ]
+777 silly lockFile 9be2f729-event-stream-3-0-x event-stream@3.0.x
+778 verbose lock event-stream@3.0.x /Users/Serena/.npm/9be2f729-event-stream-3-0-x.lock
+779 verbose cache add [ 'ncp@0.4.2', null ]
+780 verbose cache add name=undefined spec="ncp@0.4.2" args=["ncp@0.4.2",null]
+781 verbose parsed url { protocol: null,
+781 verbose parsed url   slashes: null,
+781 verbose parsed url   auth: null,
+781 verbose parsed url   host: null,
+781 verbose parsed url   port: null,
+781 verbose parsed url   hostname: null,
+781 verbose parsed url   hash: null,
+781 verbose parsed url   search: null,
+781 verbose parsed url   query: null,
+781 verbose parsed url   pathname: 'ncp@0.4.2',
+781 verbose parsed url   path: 'ncp@0.4.2',
+781 verbose parsed url   href: 'ncp@0.4.2' }
+782 verbose cache add name="ncp" spec="0.4.2" args=["ncp","0.4.2"]
+783 verbose parsed url { protocol: null,
+783 verbose parsed url   slashes: null,
+783 verbose parsed url   auth: null,
+783 verbose parsed url   host: null,
+783 verbose parsed url   port: null,
+783 verbose parsed url   hostname: null,
+783 verbose parsed url   hash: null,
+783 verbose parsed url   search: null,
+783 verbose parsed url   query: null,
+783 verbose parsed url   pathname: '0.4.2',
+783 verbose parsed url   path: '0.4.2',
+783 verbose parsed url   href: '0.4.2' }
+784 verbose addNamed [ 'ncp', '0.4.2' ]
+785 verbose addNamed [ '0.4.2', '0.4.2' ]
+786 silly lockFile e43cb36a-ncp-0-4-2 ncp@0.4.2
+787 verbose lock ncp@0.4.2 /Users/Serena/.npm/e43cb36a-ncp-0-4-2.lock
+788 verbose cache add [ 'form-data@~0.1.0', null ]
+789 verbose cache add name=undefined spec="form-data@~0.1.0" args=["form-data@~0.1.0",null]
+790 verbose parsed url { protocol: null,
+790 verbose parsed url   slashes: null,
+790 verbose parsed url   auth: null,
+790 verbose parsed url   host: null,
+790 verbose parsed url   port: null,
+790 verbose parsed url   hostname: null,
+790 verbose parsed url   hash: null,
+790 verbose parsed url   search: null,
+790 verbose parsed url   query: null,
+790 verbose parsed url   pathname: 'form-data@~0.1.0',
+790 verbose parsed url   path: 'form-data@~0.1.0',
+790 verbose parsed url   href: 'form-data@~0.1.0' }
+791 verbose cache add name="form-data" spec="~0.1.0" args=["form-data","~0.1.0"]
+792 verbose parsed url { protocol: null,
+792 verbose parsed url   slashes: null,
+792 verbose parsed url   auth: null,
+792 verbose parsed url   host: null,
+792 verbose parsed url   port: null,
+792 verbose parsed url   hostname: null,
+792 verbose parsed url   hash: null,
+792 verbose parsed url   search: null,
+792 verbose parsed url   query: null,
+792 verbose parsed url   pathname: '~0.1.0',
+792 verbose parsed url   path: '~0.1.0',
+792 verbose parsed url   href: '~0.1.0' }
+793 verbose addNamed [ 'form-data', '~0.1.0' ]
+794 verbose addNamed [ null, '>=0.1.0- <0.2.0-' ]
+795 silly lockFile 26aa13f4-form-data-0-1-0 form-data@~0.1.0
+796 verbose lock form-data@~0.1.0 /Users/Serena/.npm/26aa13f4-form-data-0-1-0.lock
+797 verbose cache add [ 'optimist@0.6.0', null ]
+798 verbose cache add name=undefined spec="optimist@0.6.0" args=["optimist@0.6.0",null]
+799 verbose parsed url { protocol: null,
+799 verbose parsed url   slashes: null,
+799 verbose parsed url   auth: null,
+799 verbose parsed url   host: null,
+799 verbose parsed url   port: null,
+799 verbose parsed url   hostname: null,
+799 verbose parsed url   hash: null,
+799 verbose parsed url   search: null,
+799 verbose parsed url   query: null,
+799 verbose parsed url   pathname: 'optimist@0.6.0',
+799 verbose parsed url   path: 'optimist@0.6.0',
+799 verbose parsed url   href: 'optimist@0.6.0' }
+800 verbose cache add name="optimist" spec="0.6.0" args=["optimist","0.6.0"]
+801 verbose parsed url { protocol: null,
+801 verbose parsed url   slashes: null,
+801 verbose parsed url   auth: null,
+801 verbose parsed url   host: null,
+801 verbose parsed url   port: null,
+801 verbose parsed url   hostname: null,
+801 verbose parsed url   hash: null,
+801 verbose parsed url   search: null,
+801 verbose parsed url   query: null,
+801 verbose parsed url   pathname: '0.6.0',
+801 verbose parsed url   path: '0.6.0',
+801 verbose parsed url   href: '0.6.0' }
+802 verbose addNamed [ 'optimist', '0.6.0' ]
+803 verbose addNamed [ '0.6.0', '0.6.0' ]
+804 silly lockFile 6403b4d6-optimist-0-6-0 optimist@0.6.0
+805 verbose lock optimist@0.6.0 /Users/Serena/.npm/6403b4d6-optimist-0-6-0.lock
+806 verbose cache add [ 'prompt@0.2.12', null ]
+807 verbose cache add name=undefined spec="prompt@0.2.12" args=["prompt@0.2.12",null]
+808 verbose parsed url { protocol: null,
+808 verbose parsed url   slashes: null,
+808 verbose parsed url   auth: null,
+808 verbose parsed url   host: null,
+808 verbose parsed url   port: null,
+808 verbose parsed url   hostname: null,
+808 verbose parsed url   hash: null,
+808 verbose parsed url   search: null,
+808 verbose parsed url   query: null,
+808 verbose parsed url   pathname: 'prompt@0.2.12',
+808 verbose parsed url   path: 'prompt@0.2.12',
+808 verbose parsed url   href: 'prompt@0.2.12' }
+809 verbose cache add name="prompt" spec="0.2.12" args=["prompt","0.2.12"]
+810 verbose parsed url { protocol: null,
+810 verbose parsed url   slashes: null,
+810 verbose parsed url   auth: null,
+810 verbose parsed url   host: null,
+810 verbose parsed url   port: null,
+810 verbose parsed url   hostname: null,
+810 verbose parsed url   hash: null,
+810 verbose parsed url   search: null,
+810 verbose parsed url   query: null,
+810 verbose parsed url   pathname: '0.2.12',
+810 verbose parsed url   path: '0.2.12',
+810 verbose parsed url   href: '0.2.12' }
+811 verbose addNamed [ 'prompt', '0.2.12' ]
+812 verbose addNamed [ '0.2.12', '0.2.12' ]
+813 silly lockFile 08399e24-prompt-0-2-12 prompt@0.2.12
+814 verbose lock prompt@0.2.12 /Users/Serena/.npm/08399e24-prompt-0-2-12.lock
+815 silly addNameRange { name: 'event-stream',
+815 silly addNameRange   range: '>=3.0.0- <3.1.0-',
+815 silly addNameRange   hasData: false }
+816 verbose url raw archiver/0.5.1
+817 verbose url resolving [ 'https://registry.npmjs.org/', './archiver/0.5.1' ]
+818 verbose url resolved https://registry.npmjs.org/archiver/0.5.1
+819 info trying registry request attempt 1 at 11:09:21
+820 http GET https://registry.npmjs.org/archiver/0.5.1
+821 silly addNameRange { name: 'form-data', range: '>=0.1.0- <0.2.0-', hasData: false }
+822 verbose cache add [ 'request@2.27.0', null ]
+823 verbose cache add name=undefined spec="request@2.27.0" args=["request@2.27.0",null]
+824 verbose parsed url { protocol: null,
+824 verbose parsed url   slashes: null,
+824 verbose parsed url   auth: null,
+824 verbose parsed url   host: null,
+824 verbose parsed url   port: null,
+824 verbose parsed url   hostname: null,
+824 verbose parsed url   hash: null,
+824 verbose parsed url   search: null,
+824 verbose parsed url   query: null,
+824 verbose parsed url   pathname: 'request@2.27.0',
+824 verbose parsed url   path: 'request@2.27.0',
+824 verbose parsed url   href: 'request@2.27.0' }
+825 verbose cache add name="request" spec="2.27.0" args=["request","2.27.0"]
+826 verbose parsed url { protocol: null,
+826 verbose parsed url   slashes: null,
+826 verbose parsed url   auth: null,
+826 verbose parsed url   host: null,
+826 verbose parsed url   port: null,
+826 verbose parsed url   hostname: null,
+826 verbose parsed url   hash: null,
+826 verbose parsed url   search: null,
+826 verbose parsed url   query: null,
+826 verbose parsed url   pathname: '2.27.0',
+826 verbose parsed url   path: '2.27.0',
+826 verbose parsed url   href: '2.27.0' }
+827 verbose addNamed [ 'request', '2.27.0' ]
+828 verbose addNamed [ '2.27.0', '2.27.0' ]
+829 silly lockFile 7b48fbe0-request-2-27-0 request@2.27.0
+830 verbose lock request@2.27.0 /Users/Serena/.npm/7b48fbe0-request-2-27-0.lock
+831 verbose cache add [ 'shelljs@0.2.6', null ]
+832 verbose cache add name=undefined spec="shelljs@0.2.6" args=["shelljs@0.2.6",null]
+833 verbose parsed url { protocol: null,
+833 verbose parsed url   slashes: null,
+833 verbose parsed url   auth: null,
+833 verbose parsed url   host: null,
+833 verbose parsed url   port: null,
+833 verbose parsed url   hostname: null,
+833 verbose parsed url   hash: null,
+833 verbose parsed url   search: null,
+833 verbose parsed url   query: null,
+833 verbose parsed url   pathname: 'shelljs@0.2.6',
+833 verbose parsed url   path: 'shelljs@0.2.6',
+833 verbose parsed url   href: 'shelljs@0.2.6' }
+834 verbose cache add name="shelljs" spec="0.2.6" args=["shelljs","0.2.6"]
+835 verbose parsed url { protocol: null,
+835 verbose parsed url   slashes: null,
+835 verbose parsed url   auth: null,
+835 verbose parsed url   host: null,
+835 verbose parsed url   port: null,
+835 verbose parsed url   hostname: null,
+835 verbose parsed url   hash: null,
+835 verbose parsed url   search: null,
+835 verbose parsed url   query: null,
+835 verbose parsed url   pathname: '0.2.6',
+835 verbose parsed url   path: '0.2.6',
+835 verbose parsed url   href: '0.2.6' }
+836 verbose addNamed [ 'shelljs', '0.2.6' ]
+837 verbose addNamed [ '0.2.6', '0.2.6' ]
+838 silly lockFile 542b9617-shelljs-0-2-6 shelljs@0.2.6
+839 verbose lock shelljs@0.2.6 /Users/Serena/.npm/542b9617-shelljs-0-2-6.lock
+840 verbose cache add [ 'unzip@0.1.9', null ]
+841 verbose cache add name=undefined spec="unzip@0.1.9" args=["unzip@0.1.9",null]
+842 verbose parsed url { protocol: null,
+842 verbose parsed url   slashes: null,
+842 verbose parsed url   auth: null,
+842 verbose parsed url   host: null,
+842 verbose parsed url   port: null,
+842 verbose parsed url   hostname: null,
+842 verbose parsed url   hash: null,
+842 verbose parsed url   search: null,
+842 verbose parsed url   query: null,
+842 verbose parsed url   pathname: 'unzip@0.1.9',
+842 verbose parsed url   path: 'unzip@0.1.9',
+842 verbose parsed url   href: 'unzip@0.1.9' }
+843 verbose cache add name="unzip" spec="0.1.9" args=["unzip","0.1.9"]
+844 verbose parsed url { protocol: null,
+844 verbose parsed url   slashes: null,
+844 verbose parsed url   auth: null,
+844 verbose parsed url   host: null,
+844 verbose parsed url   port: null,
+844 verbose parsed url   hostname: null,
+844 verbose parsed url   hash: null,
+844 verbose parsed url   search: null,
+844 verbose parsed url   query: null,
+844 verbose parsed url   pathname: '0.1.9',
+844 verbose parsed url   path: '0.1.9',
+844 verbose parsed url   href: '0.1.9' }
+845 verbose addNamed [ 'unzip', '0.1.9' ]
+846 verbose addNamed [ '0.1.9', '0.1.9' ]
+847 silly lockFile e656a324-unzip-0-1-9 unzip@0.1.9
+848 verbose lock unzip@0.1.9 /Users/Serena/.npm/e656a324-unzip-0-1-9.lock
+849 verbose cache add [ 'colors@^0.6.2', null ]
+850 verbose cache add name=undefined spec="colors@^0.6.2" args=["colors@^0.6.2",null]
+851 verbose parsed url { protocol: null,
+851 verbose parsed url   slashes: null,
+851 verbose parsed url   auth: null,
+851 verbose parsed url   host: null,
+851 verbose parsed url   port: null,
+851 verbose parsed url   hostname: null,
+851 verbose parsed url   hash: null,
+851 verbose parsed url   search: null,
+851 verbose parsed url   query: null,
+851 verbose parsed url   pathname: 'colors@^0.6.2',
+851 verbose parsed url   path: 'colors@^0.6.2',
+851 verbose parsed url   href: 'colors@^0.6.2' }
+852 verbose cache add name="colors" spec="^0.6.2" args=["colors","^0.6.2"]
+853 verbose parsed url { protocol: null,
+853 verbose parsed url   slashes: null,
+853 verbose parsed url   auth: null,
+853 verbose parsed url   host: null,
+853 verbose parsed url   port: null,
+853 verbose parsed url   hostname: null,
+853 verbose parsed url   hash: null,
+853 verbose parsed url   search: null,
+853 verbose parsed url   query: null,
+853 verbose parsed url   pathname: '^0.6.2',
+853 verbose parsed url   path: '^0.6.2',
+853 verbose parsed url   href: '^0.6.2' }
+854 verbose addNamed [ 'colors', '^0.6.2' ]
+855 verbose addNamed [ null, null ]
+856 silly lockFile dd7abdee-colors-0-6-2 colors@^0.6.2
+857 verbose lock colors@^0.6.2 /Users/Serena/.npm/dd7abdee-colors-0-6-2.lock
+858 verbose cache add [ 'q@^1.0.1', null ]
+859 verbose cache add name=undefined spec="q@^1.0.1" args=["q@^1.0.1",null]
+860 verbose parsed url { protocol: null,
+860 verbose parsed url   slashes: null,
+860 verbose parsed url   auth: null,
+860 verbose parsed url   host: null,
+860 verbose parsed url   port: null,
+860 verbose parsed url   hostname: null,
+860 verbose parsed url   hash: null,
+860 verbose parsed url   search: null,
+860 verbose parsed url   query: null,
+860 verbose parsed url   pathname: 'q@^1.0.1',
+860 verbose parsed url   path: 'q@^1.0.1',
+860 verbose parsed url   href: 'q@^1.0.1' }
+861 verbose cache add name="q" spec="^1.0.1" args=["q","^1.0.1"]
+862 verbose parsed url { protocol: null,
+862 verbose parsed url   slashes: null,
+862 verbose parsed url   auth: null,
+862 verbose parsed url   host: null,
+862 verbose parsed url   port: null,
+862 verbose parsed url   hostname: null,
+862 verbose parsed url   hash: null,
+862 verbose parsed url   search: null,
+862 verbose parsed url   query: null,
+862 verbose parsed url   pathname: '^1.0.1',
+862 verbose parsed url   path: '^1.0.1',
+862 verbose parsed url   href: '^1.0.1' }
+863 verbose addNamed [ 'q', '^1.0.1' ]
+864 verbose addNamed [ null, null ]
+865 silly lockFile a3aa47d3-q-1-0-1 q@^1.0.1
+866 verbose lock q@^1.0.1 /Users/Serena/.npm/a3aa47d3-q-1-0-1.lock
+867 verbose cache add [ 'npm@^1.4.6', null ]
+868 verbose cache add name=undefined spec="npm@^1.4.6" args=["npm@^1.4.6",null]
+869 verbose parsed url { protocol: null,
+869 verbose parsed url   slashes: null,
+869 verbose parsed url   auth: null,
+869 verbose parsed url   host: null,
+869 verbose parsed url   port: null,
+869 verbose parsed url   hostname: null,
+869 verbose parsed url   hash: null,
+869 verbose parsed url   search: null,
+869 verbose parsed url   query: null,
+869 verbose parsed url   pathname: 'npm@^1.4.6',
+869 verbose parsed url   path: 'npm@^1.4.6',
+869 verbose parsed url   href: 'npm@^1.4.6' }
+870 verbose cache add name="npm" spec="^1.4.6" args=["npm","^1.4.6"]
+871 verbose parsed url { protocol: null,
+871 verbose parsed url   slashes: null,
+871 verbose parsed url   auth: null,
+871 verbose parsed url   host: null,
+871 verbose parsed url   port: null,
+871 verbose parsed url   hostname: null,
+871 verbose parsed url   hash: null,
+871 verbose parsed url   search: null,
+871 verbose parsed url   query: null,
+871 verbose parsed url   pathname: '^1.4.6',
+871 verbose parsed url   path: '^1.4.6',
+871 verbose parsed url   href: '^1.4.6' }
+872 verbose addNamed [ 'npm', '^1.4.6' ]
+873 verbose addNamed [ null, null ]
+874 silly lockFile b73b8d33-npm-1-4-6 npm@^1.4.6
+875 verbose lock npm@^1.4.6 /Users/Serena/.npm/b73b8d33-npm-1-4-6.lock
+876 verbose cache add [ 'connect@^2.14.5', null ]
+877 verbose cache add name=undefined spec="connect@^2.14.5" args=["connect@^2.14.5",null]
+878 verbose parsed url { protocol: null,
+878 verbose parsed url   slashes: null,
+878 verbose parsed url   auth: null,
+878 verbose parsed url   host: null,
+878 verbose parsed url   port: null,
+878 verbose parsed url   hostname: null,
+878 verbose parsed url   hash: null,
+878 verbose parsed url   search: null,
+878 verbose parsed url   query: null,
+878 verbose parsed url   pathname: 'connect@^2.14.5',
+878 verbose parsed url   path: 'connect@^2.14.5',
+878 verbose parsed url   href: 'connect@^2.14.5' }
+879 verbose cache add name="connect" spec="^2.14.5" args=["connect","^2.14.5"]
+880 verbose parsed url { protocol: null,
+880 verbose parsed url   slashes: null,
+880 verbose parsed url   auth: null,
+880 verbose parsed url   host: null,
+880 verbose parsed url   port: null,
+880 verbose parsed url   hostname: null,
+880 verbose parsed url   hash: null,
+880 verbose parsed url   search: null,
+880 verbose parsed url   query: null,
+880 verbose parsed url   pathname: '^2.14.5',
+880 verbose parsed url   path: '^2.14.5',
+880 verbose parsed url   href: '^2.14.5' }
+881 verbose addNamed [ 'connect', '^2.14.5' ]
+882 verbose addNamed [ null, null ]
+883 silly lockFile 320bda50-connect-2-14-5 connect@^2.14.5
+884 verbose lock connect@^2.14.5 /Users/Serena/.npm/320bda50-connect-2-14-5.lock
+885 verbose cache add [ 'open@0.0.5', null ]
+886 verbose cache add name=undefined spec="open@0.0.5" args=["open@0.0.5",null]
+887 verbose parsed url { protocol: null,
+887 verbose parsed url   slashes: null,
+887 verbose parsed url   auth: null,
+887 verbose parsed url   host: null,
+887 verbose parsed url   port: null,
+887 verbose parsed url   hostname: null,
+887 verbose parsed url   hash: null,
+887 verbose parsed url   search: null,
+887 verbose parsed url   query: null,
+887 verbose parsed url   pathname: 'open@0.0.5',
+887 verbose parsed url   path: 'open@0.0.5',
+887 verbose parsed url   href: 'open@0.0.5' }
+888 verbose cache add name="open" spec="0.0.5" args=["open","0.0.5"]
+889 verbose parsed url { protocol: null,
+889 verbose parsed url   slashes: null,
+889 verbose parsed url   auth: null,
+889 verbose parsed url   host: null,
+889 verbose parsed url   port: null,
+889 verbose parsed url   hostname: null,
+889 verbose parsed url   hash: null,
+889 verbose parsed url   search: null,
+889 verbose parsed url   query: null,
+889 verbose parsed url   pathname: '0.0.5',
+889 verbose parsed url   path: '0.0.5',
+889 verbose parsed url   href: '0.0.5' }
+890 verbose addNamed [ 'open', '0.0.5' ]
+891 verbose addNamed [ '0.0.5', '0.0.5' ]
+892 silly lockFile c6d41519-open-0-0-5 open@0.0.5
+893 verbose lock open@0.0.5 /Users/Serena/.npm/c6d41519-open-0-0-5.lock
+894 verbose url raw event-stream
+895 verbose url resolving [ 'https://registry.npmjs.org/', './event-stream' ]
+896 verbose url resolved https://registry.npmjs.org/event-stream
+897 info trying registry request attempt 1 at 11:09:21
+898 http GET https://registry.npmjs.org/event-stream
+899 verbose cache add [ 'tiny-lr-fork@0.0.5', null ]
+900 verbose cache add name=undefined spec="tiny-lr-fork@0.0.5" args=["tiny-lr-fork@0.0.5",null]
+901 verbose parsed url { protocol: null,
+901 verbose parsed url   slashes: null,
+901 verbose parsed url   auth: null,
+901 verbose parsed url   host: null,
+901 verbose parsed url   port: null,
+901 verbose parsed url   hostname: null,
+901 verbose parsed url   hash: null,
+901 verbose parsed url   search: null,
+901 verbose parsed url   query: null,
+901 verbose parsed url   pathname: 'tiny-lr-fork@0.0.5',
+901 verbose parsed url   path: 'tiny-lr-fork@0.0.5',
+901 verbose parsed url   href: 'tiny-lr-fork@0.0.5' }
+902 verbose cache add name="tiny-lr-fork" spec="0.0.5" args=["tiny-lr-fork","0.0.5"]
+903 verbose parsed url { protocol: null,
+903 verbose parsed url   slashes: null,
+903 verbose parsed url   auth: null,
+903 verbose parsed url   host: null,
+903 verbose parsed url   port: null,
+903 verbose parsed url   hostname: null,
+903 verbose parsed url   hash: null,
+903 verbose parsed url   search: null,
+903 verbose parsed url   query: null,
+903 verbose parsed url   pathname: '0.0.5',
+903 verbose parsed url   path: '0.0.5',
+903 verbose parsed url   href: '0.0.5' }
+904 verbose addNamed [ 'tiny-lr-fork', '0.0.5' ]
+905 verbose addNamed [ '0.0.5', '0.0.5' ]
+906 silly lockFile 2a35e3da-tiny-lr-fork-0-0-5 tiny-lr-fork@0.0.5
+907 verbose lock tiny-lr-fork@0.0.5 /Users/Serena/.npm/2a35e3da-tiny-lr-fork-0-0-5.lock
+908 verbose cache add [ 'connect-livereload@^0.4.0', null ]
+909 verbose cache add name=undefined spec="connect-livereload@^0.4.0" args=["connect-livereload@^0.4.0",null]
+910 verbose parsed url { protocol: null,
+910 verbose parsed url   slashes: null,
+910 verbose parsed url   auth: null,
+910 verbose parsed url   host: null,
+910 verbose parsed url   port: null,
+910 verbose parsed url   hostname: null,
+910 verbose parsed url   hash: null,
+910 verbose parsed url   search: null,
+910 verbose parsed url   query: null,
+910 verbose parsed url   pathname: 'connect-livereload@^0.4.0',
+910 verbose parsed url   path: 'connect-livereload@^0.4.0',
+910 verbose parsed url   href: 'connect-livereload@^0.4.0' }
+911 verbose cache add name="connect-livereload" spec="^0.4.0" args=["connect-livereload","^0.4.0"]
+912 verbose parsed url { protocol: null,
+912 verbose parsed url   slashes: null,
+912 verbose parsed url   auth: null,
+912 verbose parsed url   host: null,
+912 verbose parsed url   port: null,
+912 verbose parsed url   hostname: null,
+912 verbose parsed url   hash: null,
+912 verbose parsed url   search: null,
+912 verbose parsed url   query: null,
+912 verbose parsed url   pathname: '^0.4.0',
+912 verbose parsed url   path: '^0.4.0',
+912 verbose parsed url   href: '^0.4.0' }
+913 verbose addNamed [ 'connect-livereload', '^0.4.0' ]
+914 verbose addNamed [ null, null ]
+915 silly lockFile 07e39cc6-connect-livereload-0-4-0 connect-livereload@^0.4.0
+916 verbose lock connect-livereload@^0.4.0 /Users/Serena/.npm/07e39cc6-connect-livereload-0-4-0.lock
+917 verbose cache add [ 'vinyl-fs@^0.1.4', null ]
+918 verbose cache add name=undefined spec="vinyl-fs@^0.1.4" args=["vinyl-fs@^0.1.4",null]
+919 verbose parsed url { protocol: null,
+919 verbose parsed url   slashes: null,
+919 verbose parsed url   auth: null,
+919 verbose parsed url   host: null,
+919 verbose parsed url   port: null,
+919 verbose parsed url   hostname: null,
+919 verbose parsed url   hash: null,
+919 verbose parsed url   search: null,
+919 verbose parsed url   query: null,
+919 verbose parsed url   pathname: 'vinyl-fs@^0.1.4',
+919 verbose parsed url   path: 'vinyl-fs@^0.1.4',
+919 verbose parsed url   href: 'vinyl-fs@^0.1.4' }
+920 verbose cache add name="vinyl-fs" spec="^0.1.4" args=["vinyl-fs","^0.1.4"]
+921 verbose parsed url { protocol: null,
+921 verbose parsed url   slashes: null,
+921 verbose parsed url   auth: null,
+921 verbose parsed url   host: null,
+921 verbose parsed url   port: null,
+921 verbose parsed url   hostname: null,
+921 verbose parsed url   hash: null,
+921 verbose parsed url   search: null,
+921 verbose parsed url   query: null,
+921 verbose parsed url   pathname: '^0.1.4',
+921 verbose parsed url   path: '^0.1.4',
+921 verbose parsed url   href: '^0.1.4' }
+922 verbose addNamed [ 'vinyl-fs', '^0.1.4' ]
+923 verbose addNamed [ null, null ]
+924 silly lockFile 30236a1d-vinyl-fs-0-1-4 vinyl-fs@^0.1.4
+925 verbose lock vinyl-fs@^0.1.4 /Users/Serena/.npm/30236a1d-vinyl-fs-0-1-4.lock
+926 verbose url raw ncp/0.4.2
+927 verbose url resolving [ 'https://registry.npmjs.org/', './ncp/0.4.2' ]
+928 verbose url resolved https://registry.npmjs.org/ncp/0.4.2
+929 info trying registry request attempt 1 at 11:09:21
+930 http GET https://registry.npmjs.org/ncp/0.4.2
+931 info addNameTag [ 'q', '^1.0.1' ]
+932 info addNameTag [ 'connect', '^2.14.5' ]
+933 info addNameTag [ 'npm', '^1.4.6' ]
+934 verbose url raw prompt/0.2.12
+935 verbose url resolving [ 'https://registry.npmjs.org/', './prompt/0.2.12' ]
+936 verbose url resolved https://registry.npmjs.org/prompt/0.2.12
+937 info trying registry request attempt 1 at 11:09:21
+938 http GET https://registry.npmjs.org/prompt/0.2.12
+939 info addNameTag [ 'connect-livereload', '^0.4.0' ]
+940 verbose url raw request/2.27.0
+941 verbose url resolving [ 'https://registry.npmjs.org/', './request/2.27.0' ]
+942 verbose url resolved https://registry.npmjs.org/request/2.27.0
+943 info trying registry request attempt 1 at 11:09:21
+944 http GET https://registry.npmjs.org/request/2.27.0
+945 info addNameTag [ 'vinyl-fs', '^0.1.4' ]
+946 info addNameTag [ 'colors', '^0.6.2' ]
+947 verbose url raw open/0.0.5
+948 verbose url resolving [ 'https://registry.npmjs.org/', './open/0.0.5' ]
+949 verbose url resolved https://registry.npmjs.org/open/0.0.5
+950 info trying registry request attempt 1 at 11:09:21
+951 http GET https://registry.npmjs.org/open/0.0.5
+952 verbose url raw unzip/0.1.9
+953 verbose url resolving [ 'https://registry.npmjs.org/', './unzip/0.1.9' ]
+954 verbose url resolved https://registry.npmjs.org/unzip/0.1.9
+955 info trying registry request attempt 1 at 11:09:21
+956 http GET https://registry.npmjs.org/unzip/0.1.9
+957 verbose url raw tiny-lr-fork/0.0.5
+958 verbose url resolving [ 'https://registry.npmjs.org/', './tiny-lr-fork/0.0.5' ]
+959 verbose url resolved https://registry.npmjs.org/tiny-lr-fork/0.0.5
+960 info trying registry request attempt 1 at 11:09:21
+961 http GET https://registry.npmjs.org/tiny-lr-fork/0.0.5
+962 verbose url raw connect-livereload
+963 verbose url resolving [ 'https://registry.npmjs.org/', './connect-livereload' ]
+964 verbose url resolved https://registry.npmjs.org/connect-livereload
+965 info trying registry request attempt 1 at 11:09:21
+966 http GET https://registry.npmjs.org/connect-livereload
+967 verbose url raw vinyl-fs
+968 verbose url resolving [ 'https://registry.npmjs.org/', './vinyl-fs' ]
+969 verbose url resolved https://registry.npmjs.org/vinyl-fs
+970 info trying registry request attempt 1 at 11:09:21
+971 http GET https://registry.npmjs.org/vinyl-fs
+972 verbose url raw connect
+973 verbose url resolving [ 'https://registry.npmjs.org/', './connect' ]
+974 verbose url resolved https://registry.npmjs.org/connect
+975 info trying registry request attempt 1 at 11:09:21
+976 http GET https://registry.npmjs.org/connect
+977 verbose url raw npm
+978 verbose url resolving [ 'https://registry.npmjs.org/', './npm' ]
+979 verbose url resolved https://registry.npmjs.org/npm
+980 info trying registry request attempt 1 at 11:09:21
+981 http GET https://registry.npmjs.org/npm
+982 verbose registry.get optimist/0.6.0 not expired, no request
+983 verbose from cache /Users/Serena/.npm/optimist/0.6.0/package/package.json
+984 silly lockFile 6403b4d6-optimist-0-6-0 optimist@0.6.0
+985 silly lockFile 6403b4d6-optimist-0-6-0 optimist@0.6.0
+986 verbose registry.get q not expired, no request
+987 silly lockFile a3aa47d3-q-1-0-1 q@^1.0.1
+988 silly lockFile a3aa47d3-q-1-0-1 q@^1.0.1
+989 verbose url raw colors
+990 verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+991 verbose url resolved https://registry.npmjs.org/colors
+992 info trying registry request attempt 1 at 11:09:21
+993 http GET https://registry.npmjs.org/colors
+994 verbose about to build /usr/local/lib/node_modules/ionic
+995 info /usr/local/lib/node_modules/ionic unbuild
+996 verbose from cache /usr/local/lib/node_modules/ionic/package.json
+997 info preuninstall ionic@1.0.14
+998 info uninstall ionic@1.0.14
+999 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild ionic@1.0.14
+1000 verbose /usr/local/bin,[object Object] binRoot
+1001 verbose url raw form-data
+1002 verbose url resolving [ 'https://registry.npmjs.org/', './form-data' ]
+1003 verbose url resolved https://registry.npmjs.org/form-data
+1004 info trying registry request attempt 1 at 11:09:21
+1005 verbose etag "3OUFC5JBY0Q2KL9S3SQQ28XMM"
+1006 http GET https://registry.npmjs.org/form-data
+1007 info postuninstall ionic@1.0.14
+1008 verbose url raw shelljs/0.2.6
+1009 verbose url resolving [ 'https://registry.npmjs.org/', './shelljs/0.2.6' ]
+1010 verbose url resolved https://registry.npmjs.org/shelljs/0.2.6
+1011 info trying registry request attempt 1 at 11:09:21
+1012 verbose etag "4M4FM2JIUHZWD50V8ZG9OI81B"
+1013 http GET https://registry.npmjs.org/shelljs/0.2.6
+1014 silly lockFile 2cd31a33-61602-0-5834961761720479-package /Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/package
+1015 silly lockFile 2cd31a33-61602-0-5834961761720479-package /Users/Serena/tmp/npm-3105/1402067361602-0.5834961761720479/package
+1016 silly lockFile 01178652-npm-underscore-1-4-4-package-tgz /Users/Serena/.npm/underscore/1.4.4/package.tgz
+1017 silly lockFile 01178652-npm-underscore-1-4-4-package-tgz /Users/Serena/.npm/underscore/1.4.4/package.tgz
+1018 silly lockFile a9255e9e-ena-npm-underscore-1-4-4-package /Users/Serena/.npm/underscore/1.4.4/package
+1019 verbose lock /Users/Serena/.npm/underscore/1.4.4/package /Users/Serena/.npm/a9255e9e-ena-npm-underscore-1-4-4-package.lock
+1020 silly lockFile a9255e9e-ena-npm-underscore-1-4-4-package /Users/Serena/.npm/underscore/1.4.4/package
+1021 silly lockFile a9255e9e-ena-npm-underscore-1-4-4-package /Users/Serena/.npm/underscore/1.4.4/package
+1022 verbose tar unpack /Users/Serena/.npm/underscore/1.4.4/package.tgz
+1023 silly lockFile a9255e9e-ena-npm-underscore-1-4-4-package /Users/Serena/.npm/underscore/1.4.4/package
+1024 verbose lock /Users/Serena/.npm/underscore/1.4.4/package /Users/Serena/.npm/a9255e9e-ena-npm-underscore-1-4-4-package.lock
+1025 silly lockFile 01178652-npm-underscore-1-4-4-package-tgz /Users/Serena/.npm/underscore/1.4.4/package.tgz
+1026 verbose lock /Users/Serena/.npm/underscore/1.4.4/package.tgz /Users/Serena/.npm/01178652-npm-underscore-1-4-4-package-tgz.lock
+1027 silly gunzTarPerm modes [ '755', '644' ]
+1028 error Error: No compatible version found: q@'^1.0.1'
+1028 error Valid install targets:
+1028 error ["0.0.0","0.0.1","0.0.2","0.0.3","0.1.0","0.1.1","0.1.2","0.1.3","0.1.4","0.1.5","0.1.6","0.1.7","0.1.8","0.1.9","0.2.0-rc1","0.2.0","0.2.1","0.2.2","0.2.3","0.2.4","0.2.5","0.2.6","0.2.7","0.2.8","0.2.9","0.3.0","0.2.10","0.4.0","0.4.1","0.4.2","0.4.4","0.5.0","0.5.1","0.5.2","0.5.3","0.6.0","0.7.0","0.7.1","0.7.2","0.8.0","0.8.1","0.8.2","0.8.3","0.8.4","0.8.5","0.8.6","0.8.7","0.8.8","0.8.9","0.8.10","0.8.11","0.8.12","0.9.0","0.9.1","0.9.2","0.9.3","0.9.4","0.9.5","0.9.6","0.9.7","1.0.0","1.0.1","2.0.0","2.0.1","2.0.2"]
+1028 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:709:10)
+1028 error     at /usr/local/lib/node_modules/npm/lib/cache.js:631:10
+1028 error     at RegClient.get_ (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:101:14)
+1028 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:37:12)
+1028 error     at fs.js:266:14
+1028 error     at Object.oncomplete (fs.js:107:15)
+1029 error If you need help, you may report this log at:
+1029 error     <http://github.com/isaacs/npm/issues>
+1029 error or email it to:
+1029 error     <npm-@googlegroups.com>
+1030 error System Darwin 12.5.0
+1031 error command "node" "/usr/local/bin/npm" "install" "-g" "cordova" "ionic"
+1032 error cwd /Users/Serena/work/gappy
+1033 error node -v v0.10.10
+1034 error npm -v 1.2.25
+1035 verbose exit [ 1, true ]

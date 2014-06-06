@@ -29,11 +29,21 @@
 
 	<br>
 
-	<button onclick="capturePhoto();">Capture Photo</button> <br>
-	<button onclick="capturePhotoEdit();">Capture Editable Photo</button> <br>
+	<h1>New Task</h1>
+	<button onclick="capturePhoto()">Capture Photo</button> <br>
+
+	<form>
+	<img style="display:block;width:240px;height:120px;" id="smallImage" src="" />
+	<textarea id="annotation" placeholder="Annotate picture here..."></textarea><br>
+	<input type="submit" value="Submit new task" onclick="addTask()">
+	</form>
+	<button onclick="listTasks()">List all tasks</button> <br>
+
 	
-	<img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
-	<img style="display:none;" id="largeImage" src="" />
+	<br>
+	<div id="tasks">
+	</div>
+	<br>
 	
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>

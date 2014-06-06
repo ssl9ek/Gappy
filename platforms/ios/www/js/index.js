@@ -16,36 +16,23 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
 var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+	console.log("Initializing Gappy...");
     },
     // Bind Event Listeners
-    //
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
+
     // deviceready Event Handler
-    //
-    // The scope of 'this' is the event. In order to call the 'receivedEvent'
-    // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        app.receivedEvent('deviceready');
     },
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
-
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
-
-        console.log('Received Event: ' + id);
-    }
 };
 
 function addContact()
@@ -53,11 +40,19 @@ function addContact()
     var firstname = document.getElementById("firstname").value;
     var lastname = document.getElementById("lastname").value;
     var contact = {
-	firstname: firstname,
-        lastname:  lastname
+	'firstname': firstname,
+        'lastname':  lastname
     };
+    
+    var contactList;
+    if (localStorage.getItem('contact_list')) {
+	contactList = JSON.parse(localStorage.getItem('contact_list'));
+    }
+    else
+    {
+	contactList = {};
+    }
 
-    var contactList = JSON.parse(localStorage.getItem('contact_list')) || {};
     contactList[contact.lastname] = contact;
     localStorage.setItem('contact_list', JSON.stringify(contactList));
     
@@ -69,43 +64,73 @@ function displayContacts()
     document.getElementById('list').innerHTML = list;
 };
 
+function addTask()
+{
+    var image = document.getElementById("smallImage");
+    var annotation = document.getElementById("annotation").value;
+    var task = { 'image': image.src, 'annotation': annotation }
+
+    var tasks;
+    if (localStorage.getItem('tasks')) {
+	tasks = JSON.parse(localStorage.getItem('tasks'));
+    }
+    else
+    {
+	tasks = [];
+    }
+
+    tasks.push(task);
+    console.log(JSON.stringify(task));
+    console.log(JSON.stringify(tasks));
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+};
+
+function listTasks()
+{
+    var list = localStorage.getItem('tasks');
+    document.getElementById('tasks').innerHTML = taskSerializer(list);
+};
+
+function taskSerializer(_tasks)
+{
+    var html = "";
+    var imgTagStart = '<img style="display:block;width:200px;height:120px;" id="smallImage" src="';
+    var imgTagEnd = '" />';
+    var buttonTag = '<button onclick="sendTask()">Send task as SMS</button> <br>';
+
+
+    var tasks = JSON.parse(_tasks);
+    for (var i=0; i<tasks.length; i++) {
+	html += imgTagStart + tasks[i].image + imgTagEnd;
+	html += "<p>" + tasks[i].annotation + "</p><br>";
+	html += buttonTag;
+    }
+    console.log(html);
+    return html;
+};
+
 function capturePhoto()
 {
-
-    alert("Capturing photo...");
     // Take picture using device camera and retrieve image as base64-encoded string
-    navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 50,
-							      destinationType: destinationType.DATA_URL });
-    alert("Completed capturePhoto()");
+    navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 50 });
 
 };
-
-function capturePhotoEdit() {
-    // Take picture using device camera, allow edit, and retrieve image as base64-encoded string
-    navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 20, allowEdit: true,
-        destinationType: destinationType.DATA_URL });
-};
-
 
 function onPhotoDataSuccess(imageData) {
+    console.log("\n*************************************\n");
 
-/*      // Uncomment to view the base64-encoded image data
-      // console.log(imageData);
+    // Uncomment to view the base64-encoded image data
+    console.log(imageData);
+    
+    // Get image handle
+    var smallImage = document.getElementById('smallImage');
 
-      // Get image handle
-      //
-      var smallImage = document.getElementById('smallImage');
+    // Unhide image elements
+    smallImage.style.display = 'block';
 
-      // Unhide image elements
-      //
-      smallImage.style.display = 'block';
-
-      // Show the captured photo
-      // The in-line CSS rules are used to resize the image
-      //
-      smallImage.src = "data:image/jpeg;base64," + imageData;
-*/
-    alert("Got to onPhotoDataSuccess");
+    // Show the captured photo
+    // The in-line CSS rules are used to resize the image
+    smallImage.src = imageData;
 };
 
 function onFail(message) {

@@ -88,7 +88,25 @@ function addTask()
 function listTasks()
 {
     var list = localStorage.getItem('tasks');
-    document.getElementById('tasks').innerHTML = list;
+    document.getElementById('tasks').innerHTML = taskSerializer(list);
+};
+
+function taskSerializer(_tasks)
+{
+    var html = "";
+    var imgTagStart = '<img style="display:block;width:200px;height:120px;" id="smallImage" src="';
+    var imgTagEnd = '" />';
+    var buttonTag = '<button onclick="sendTask()">Send task as SMS</button> <br>';
+
+
+    var tasks = JSON.parse(_tasks);
+    for (var i=0; i<tasks.length; i++) {
+	html += imgTagStart + tasks[i].image + imgTagEnd;
+	html += "<p>" + tasks[i].annotation + "</p><br>";
+	html += buttonTag;
+    }
+    console.log(html);
+    return html;
 };
 
 function capturePhoto()
